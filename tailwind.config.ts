@@ -1,3 +1,4 @@
+import { Inter } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -12,6 +13,19 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-section": "url('/images/hero.png')",
+        "hero-section1": "url('/images/bggreen.png')",
+      },
+
+      fontFamily: {
+        inter: ["var-(--font-inter)"],
+        lavvic: ["var-(--font-lavvic)"],
+        century: ["var-(--font-century-Gothic)"],
+      },
+
+      colors: {
+        primary: "#334B35",
+        secondary: "#F7C35F",
       },
     },
   },
