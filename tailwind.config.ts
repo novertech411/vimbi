@@ -15,6 +15,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "hero-section": "url('/images/hero.png')",
         "hero-section1": "url('/images/bggreen.png')",
+        "hero-section2": "url('/images/product.png')",
+        "hero-section3": "url('/images/work.png')",
       },
 
       fontFamily: {
