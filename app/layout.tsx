@@ -1,10 +1,12 @@
 "use client";
 import type { Metadata } from "next";
+
 import { Inter, Livvic } from "next/font/google";
 import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import "./style.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -44,9 +46,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" h-screen bg-primary">
+      <body className=" h-screen bg-primary   ">
         <Navbar />
-        <div className={`${inter.variable} ${livvic.variable} `}>
+        <div className={`${inter.variable} ${livvic.variable}   `}>
           {children}
         </div>
         <Footer />

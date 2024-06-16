@@ -11,6 +11,8 @@ import qoutes from "@/public/images/Qouts.png";
 import review from "@/public/images/review.png";
 import skin from "@/public/images/skin.png";
 import Conatact from "@/components/contact";
+import BlogSection from "@/components/BlogSection";
+import Countdown from "@/components/Countdown";
 
 export default function Home() {
   let slides = [
@@ -162,15 +164,17 @@ export default function Home() {
             </p>
           </div>
         </div>
+
+        <Countdown />
       </Container>
 
-      <div className="  bg-[#6D8C54] flex  h-[700px] text-white gap-12">
+      <div className="  bg-[#6D8C54] flex  h-[700px] text-white gap-12 ">
         <div className="w-[45%] h-full">
           <Image src={skin} alt="crocskin" className=" w-full h-full" />
         </div>
 
         <div className=" w-[55%]  bg-hero-section3  bg-no-repeat bg-right  pl-12  ">
-          <h3 className="text-[20px] mt-[10%]">MODERN AGRICULTURE</h3>
+          <h3 className="text-[20px] mt-[10%]   johns">MODERN AGRICULTURE</h3>
           <h2 className="text-[50px] mb-7 font-[700]">
             Providing High Quality <br /> Products
           </h2>
@@ -204,7 +208,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <BlogSection />
       <Container>
         <Conatact></Conatact>
       </Container>

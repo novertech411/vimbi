@@ -17,12 +17,16 @@ const config: Config = {
         "hero-section1": "url('/images/bggreen.png')",
         "hero-section2": "url('/images/product.png')",
         "hero-section3": "url('/images/work.png')",
+        footerbg: "url('/images/footerbg.png')",
+        blogwave: "url('/images/wave.png')",
       },
 
       fontFamily: {
         inter: ["var-(--font-inter)"],
         lavvic: ["var-(--font-lavvic)"],
         century: ["var-(--font-century-Gothic)"],
+        still: ["var-(--font-johns)"],
+        johnstown: ["Johnstown", "sans-serif"],
       },
 
       colors: {

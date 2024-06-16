@@ -1,8 +1,20 @@
-import Image from "next/image";
 import React from "react";
+import Image, { StaticImageData } from "next/image";
 import crock from "@/public/images/crock.png";
 import { FaArrowRight } from "react-icons/fa";
-function ProductCard() {
+function ProductCard({
+  imagePath,
+  alt,
+  label,
+  width,
+  height,
+}: {
+  imagePath: StaticImageData;
+  alt: string;
+  width: number;
+  height: number;
+  label: string;
+}) {
   return (
     <div className=" max-w-[280px] relative border  border-secondary rounded-lg">
       <Image src={crock} alt="" className="w-full h-full" />
