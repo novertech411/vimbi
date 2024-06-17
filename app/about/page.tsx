@@ -1,23 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import title from "@/public/images/title.png";
 import Container from "@/components/Container";
 import farm from "@/public/images/farm.png";
 import { FaCheckCircle } from "react-icons/fa";
 import icon from "@/public/images/icon.png";
-import offering from "@/public/images/Frame 1000001069.png";
 import video from "@/public/images/video.png";
-import ProductCard from "@/components/ProductCard";
-import qoutes from "@/public/images/Qouts.png";
-import review from "@/public/images/review.png";
-import skin from "@/public/images/skin.png";
-import Conatact from "@/components/Contact";
-import BlogSection from "@/components/BlogSection";
-import Countdown from "@/components/Countdown";
-
-import Eggs from "@/public/images/egg.png";
-import Chicken from "@/public/images/chicken.png";
-import Cock from "@/public/images/cock.png";
 
 function page() {
   return (
@@ -45,36 +32,35 @@ function page() {
             <div className="w-[50%] text-white pt-5 ">
               <h4>OUR INTRODUCTION</h4>
 
-              <h2 className=" text-white font-[700] text-[50px]   my-5">
-                Here’s a Bit Of Who <br></br>We Are
+              <h2 className=" text-white font-[700] text-[50px] my-5">
+                Here&apos;s a Bit Of Who <br /> We Are
               </h2>
-              <h4 className=" text-secondary text-[30px] font-[500] ">
-                We’re a Leader in the Crocodile Market
+              <h4 className=" text-secondary text-[30px] font-[500]">
+                We&apos;re a Leader in the Crocodile Market
               </h4>
               <p>
-                {" "}
                 We are operating as a farming business that is focused on
                 profitable, progressive and sustainable production of premium
                 quality identity-preserved crocodile meat, crocodile skin and
-                other vast farm products like chickens, ducks, eggs.We hope to
+                other vast farm products like chickens, ducks, eggs. We hope to
                 give our customers value for their money by giving them the best
                 nutritional meat found here in the Mashonaland region of
-                Zimbabwe. We prefer a clean lifestyle & we're are willing to
-                embrace change as a means to that end.We also have an open mind
-                regarding partnerships therfore any investment opportunities are
-                welcome.
+                Zimbabwe. We prefer a clean lifestyle &amp; we&apos;re willing
+                to embrace change as a means to that end. We also have an open
+                mind regarding partnerships therefore any investment
+                opportunities are welcome.
               </p>
 
               <div className="flex items-center gap-5 mt-7 ">
-                <FaCheckCircle className="text-secondary " />{" "}
+                <FaCheckCircle className="text-secondary " />
                 <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="flex items-center gap-5 my-4 ">
-                <FaCheckCircle className="text-secondary " />{" "}
+                <FaCheckCircle className="text-secondary " />
                 <p>Lorem ipsum dolor sit amet</p>
               </div>
               <div className="flex items-center gap-5  my-4">
-                <FaCheckCircle className="text-secondary " />{" "}
+                <FaCheckCircle className="text-secondary " />
                 <p>Lorem ipsum dolor sit amet</p>
               </div>
             </div>

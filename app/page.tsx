@@ -78,25 +78,25 @@ export default function Home() {
                 <h4>OUR INTRODUCTION</h4>
 
                 <h2 className=" text-white font-[700] text-[50px]   my-5">
-                  Here’s a Bit Of Who <br></br>We Are
+                  Here&apos;s a Bit Of Who <br /> We Are
                 </h2>
               </div>
 
               <h4 className=" text-secondary md:text-[30px]  my-9   text-[20px] font-[500] ">
-                We’re a Leader in the Crocodile Market
+                We&apos;re a Leader in the Crocodile Market
               </h4>
               <p>
                 {" "}
                 We are operating as a farming business that is focused on
                 profitable, progressive and sustainable production of premium
                 quality identity-preserved crocodile meat, crocodile skin and
-                other vast farm products like chickens, ducks, eggs.We hope to
+                other vast farm products like chickens, ducks, eggs. We hope to
                 give our customers value for their money by giving them the best
                 nutritional meat found here in the Mashonaland region of
-                Zimbabwe. We prefer a clean lifestyle & we're are willing to
-                embrace change as a means to that end.We also have an open mind
-                regarding partnerships therfore any investment opportunities are
-                welcome.
+                Zimbabwe. We prefer a clean lifestyle &amp; we&apos;re willing
+                to embrace change as a means to that end. We also have an open
+                mind regarding partnerships therefore any investment
+                opportunities are welcome.
               </p>
               <div className="  mt-11  ">
                 <div className="flex items-center gap-5 mt-7 ">

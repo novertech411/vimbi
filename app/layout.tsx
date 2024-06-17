@@ -46,6 +46,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className=" h-screen bg-primary   ">
         <Navbar />
         <div className={`${inter.variable} ${livvic.variable}   `}>
