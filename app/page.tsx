@@ -4,9 +4,7 @@ import Container from "@/components/Container";
 import farm from "@/public/images/farm.png";
 import { FaCheckCircle } from "react-icons/fa";
 import icon from "@/public/images/icon.png";
-import offering from "@/public/images/Frame 1000001069.png";
-import video from "@/public/images/video.png";
-import ProductCard from "@/components/ProductCard";
+
 import qoutes from "@/public/images/Qouts.png";
 import review from "@/public/images/review.png";
 import skin from "@/public/images/skin.png";
@@ -14,9 +12,8 @@ import Conatact from "@/components/Contact";
 import BlogSection from "@/components/BlogSection";
 import Countdown from "@/components/Countdown";
 
-import Eggs from "@/public/images/egg.png";
-import Chicken from "@/public/images/chicken.png";
-import Cock from "@/public/images/cock.png";
+import Productsection from "@/components/Productsection";
+import Selectproduct from "@/components/Selectproduct";
 
 export default function Home() {
   let slides = [
@@ -125,66 +122,25 @@ export default function Home() {
         </Container>
       </div>
 
-      <div className="mt-[80px] hidden md:flex">
-        <Image src={offering} alt="" className="w-full" />
-      </div>
-      <div className="  "></div>
+      <Productsection />
 
-      <div className="mt-[80px] ">
-        <Image src={video} alt="" className="w-full" />
-      </div>
-      <div className="   bg-hero-section2   h-[800px] pt-[100px] ">
-        <h1 className="text-center text-white text-[50px] font-[700] ">
-          {" "}
-          Explore Our Products
+      <Selectproduct />
+
+      <div className="   lavvic   text-center  md:pt-[100px]  pt-[30px] text-white ">
+        <h2 className="font-[400] text-[20px]  ">Our Testimonials</h2>
+        <h1 className="font-[700] md:text-[50px]     text-[30px]">
+          WHAT THEY’RE TAKING ABOUT
         </h1>
-
-        <Container>
-          <div className="flex justify-between  my-[100px]">
-            <ProductCard
-              imagePath={Eggs}
-              alt=""
-              title="Agriculture "
-              label=" Natural way of agriculture"
-            />
-
-            <ProductCard
-              imagePath={Chicken}
-              alt=""
-              title="Agriculture "
-              label=" Natural way of agriculture"
-            />
-
-            <ProductCard
-              imagePath={Cock}
-              alt=""
-              title="Agriculture "
-              label=" Natural way of agriculture"
-            />
-
-            <ProductCard
-              imagePath={skin}
-              alt=""
-              title="Agriculture "
-              label=" Natural way of agriculture"
-            />
-          </div>
-        </Container>
-      </div>
-
-      <div className="   lavvic   text-center  pt-[100px] text-white ">
-        <h2 className="font-[400] text-[20px]">Our Testimonials</h2>
-        <h1 className="font-[700] text-[50px]">WHAT THEY’RE TAKING ABOUT</h1>
       </div>
 
       <Container>
-        <div className=" flex  justify-center gap-12 my-[90px]">
-          <div className="relative">
+        <div className=" flex  justify-center gap-12 my-[90px]    flex-col md:flex-row">
+          <div className="relative w-[70%]    mx-auto">
             <Image className="absolute right-0" src={qoutes} alt="feedback" />
             <Image src={review} alt="feedback" />
           </div>
 
-          <div className="text-[#ACACAC] w-[50%] ml-5 pt-10">
+          <div className="text-[#ACACAC] md:w-[50%]  w-[100%] md:ml-5 ml-0 pt-10">
             <p>
               “Lorem ipsum dolor sit amet consectetur. Tortor tempus cursus leo
               dictumst elementum. Sagittis elit turpis dignissim turpis
@@ -208,39 +164,39 @@ export default function Home() {
         <Countdown />
       </Container>
 
-      <div className="  bg-[#6D8C54] flex  h-[700px] text-white gap-12 ">
-        <div className="w-[45%] h-full">
+      <div className="  bg-[#6D8C54] flex  md:h-[700px] h-auto text-white gap-12  flex-col md:flex-row ">
+        <div className="md:w-[45%] w-[100%]    h-full">
           <Image src={skin} alt="crocskin" className=" w-full h-full" />
         </div>
 
-        <div className=" w-[55%]  bg-hero-section3  bg-no-repeat bg-right  pl-12  ">
+        <div className=" md:w-[55%]  w-[100%] bg-hero-section3  bg-no-repeat bg-right  md:pl-12  pl-4 ">
           <h3 className="text-[20px] mt-[10%]   johns">MODERN AGRICULTURE</h3>
-          <h2 className="text-[50px] mb-7 font-[700]">
+          <h2 className="md:text-[50px] text-[30px] mb-7 font-[700]">
             Providing High Quality <br /> Products
           </h2>
 
-          <div className=" flex   border-b border-[#ffffff2a]  pb-11  gap-7  mt-[80px]">
-            <div className=" h-[80px] w-[80px]   bg-[#344C31]   rounded-full"></div>
+          <div className=" flex   border-b border-[#ffffff2a]  pb-11  md:gap-7  gap-4 mt-[80px]">
+            <div className="md:h-[80px] md:w-[80px]  w-[40px]  h-[40px]   bg-[#344C31]   rounded-full"></div>
 
             <div>
               <h2 className="text-[24px]  font-[600]">
                 Our Agriculture Growth
               </h2>
-              <p className="text-[17px] font-[400] text-[#FFFFFF] w-[500px] ">
+              <p className="text-[17px] font-[400] text-[#FFFFFF] md:w-[500px] w-auto pr-2 ">
                 Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus
                 arcu. Metus elit auctor
               </p>
             </div>
           </div>
 
-          <div className=" flex   pb-11   gap-7  mt-[70px]">
-            <div className=" h-[80px] w-[80px]   bg-[#344C31]   rounded-full"></div>
+          <div className=" flex   pb-11   md:gap-7  gap-4  mt-[70px]">
+            <div className=" md:h-[80px] md:w-[80px]  w-[40px]  h-[40px]   bg-[#344C31]   rounded-full"></div>
 
             <div>
               <h2 className="text-[24px]  font-[600]">
                 Our Agriculture Growth
               </h2>
-              <p className="text-[17px] font-[400] text-[#FFFFFF]  w-[500px]  ">
+              <p className="text-[17px] font-[400] text-[#FFFFFF] md:w-[500px] w-auto  pr-2 ">
                 Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus
                 arcu. Metus elit auctor
               </p>

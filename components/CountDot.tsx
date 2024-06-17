@@ -10,12 +10,14 @@ function CountDot({
   labeltext?: string;
 }) {
   return (
-    <div className=" max-w-[200px] relative">
+    <div className=" md:max-w-[200px] relative   max-w-[128px]">
       <Image src={Dot} alt="yellow dot" className="w-full" />
 
-      <div className="  text-white   absolute  top-11 left-10  text-center">
-        <h2 className=" text-[50px]   font-inter font-[700]">{labelnum}</h2>
-        <p className="text-[18px]">{labeltext}</p>
+      <div className="  text-white   absolute  md:top-11 md:left-10    top-[34px] left-[29px]  text-center">
+        <h2 className=" md:text-[50px]   text-[30px] font-inter font-[700]">
+          {labelnum}
+        </h2>
+        <p className="md:text-[18px]   text-[10px]">{labeltext}</p>
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ function ProductCard({
   title: string;
 }) {
   return (
-    <div className=" max-w-[280px] relative border  border-secondary rounded-lg">
+    <div className=" max-w-[280px] relative border  border-secondary rounded-lg   md:mx-0 mx-auto  mb-11 ">
       <Image src={imagePath} alt={alt} className="w-full h-full rounded-lg" />
       <div className=" absolute    justify-between w-full px-5  items-center   bottom-4  flex   ">
         <div className=" lavvic ">

@@ -4,7 +4,7 @@ import Button from "@/components/button";
 
 function Contact() {
   return (
-    <div className="flex  johns text-white">
+    <div className="flex  johns text-white   md:flex-row flex-col">
       <div>
         <h5 className=" text-[20px] font-[400]">CONTACT NOW</h5>
         <h3 className="lavvic text-[50px] font-[700]">GET IN TOUCH NOW</h3>
@@ -38,7 +38,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className="w-[50%]  inter font-[400] ">
+      <div className="md:w-[50%] w-[100%]  inter font-[400] ">
         <form>
           <input
             type="name"

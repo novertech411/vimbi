@@ -11,6 +11,8 @@ function page() {
         <h1 className=" text-center   lavvic  text-[30px] font-[700] text-white">
           CHEMICAL & ANTIBIOTIC <span className="text-secondary">FREE</span>
         </h1>
+
+        <div></div>
       </div>
     </div>
   );

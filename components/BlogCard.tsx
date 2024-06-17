@@ -11,7 +11,6 @@ function BlogCard({
 }: {
   imagePath: StaticImageData;
   alt: string;
-
   label: string;
 }) {
   return (
