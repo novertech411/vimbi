@@ -8,13 +8,10 @@ function BlogCard({
   imagePath,
   alt,
   label,
-  width,
-  height,
 }: {
   imagePath: StaticImageData;
   alt: string;
-  width: number;
-  height: number;
+
   label: string;
 }) {
   return (

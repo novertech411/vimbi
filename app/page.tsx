@@ -10,9 +10,13 @@ import ProductCard from "@/components/ProductCard";
 import qoutes from "@/public/images/Qouts.png";
 import review from "@/public/images/review.png";
 import skin from "@/public/images/skin.png";
-import Conatact from "@/components/contact";
+import Conatact from "@/components/Contact";
 import BlogSection from "@/components/BlogSection";
 import Countdown from "@/components/Countdown";
+
+import Eggs from "@/public/images/egg.png";
+import Chicken from "@/public/images/chicken.png";
+import Cock from "@/public/images/cock.png";
 
 export default function Home() {
   let slides = [
@@ -24,18 +28,18 @@ export default function Home() {
 
   return (
     <main className="   ">
-      <div className="  bg-cover h-[680px] bg-hero-section">
+      <div className="  bg-cover  bg-mobilebg    h-[680px] md:bg-hero-section">
         <Container>
           <div className="pt-[128px]   lavvic">
             <Image src={title} alt="" />
-            <div className="  text-[65px] text-secondary  lavvic font-[700] leading-tight">
+            <div className="  md:text-[65px]  text-[37px] text-secondary  lavvic font-[700] leading-tight">
               <h1>
                 {" "}
                 Experience the Finest in <br></br> Crocodile Products
               </h1>
               <h1 className="text-white">& Poultry Delights</h1>
             </div>
-            <p className=" text-white font-[400]">
+            <p className=" text-white font-[400] my-6">
               Sustainably Sourced, Expertly Processed, and Delivered with
               Excellence
             </p>
@@ -50,27 +54,38 @@ export default function Home() {
 
       <div className=" bg-hero-section1 bg-no-repeat  h-full  pt-[80px] ">
         <Container>
-          <div className="flex justify-center  lavvic gap-10">
+          <div className=" block   md:hidden ">
+            <h2 className=" text-white font-[700] text-[30px]   my-5">
+              Here’s a Bit Of Who <br></br>We Are
+            </h2>
+          </div>
+
+          <div className="flex justify-center  lavvic gap-10   flex-col  md:flex-row">
             <div className=" relative">
               <Image src={farm} className=" " alt="farm  " />
-              <div className="absolute bg-[#6D8C54] h-[140px] rounded-xl  flex items-center gap-5 px-7    -bottom-11  left-[17%] ">
+              <div className="absolute bg-[#6D8C54] h-[100px] rounded-xl  flex items-center gap-5 md:px-7  px-3   -bottom-[60px]  left-[17%] ">
                 <Image src={icon} alt=" icon" />{" "}
                 <div className=" text-white   lavvic border-l  border-[#ffffff20] pl-5">
-                  <p className="font-[400] text-[40px]">86,700</p>
-                  <p className="font-[500] text-[16px]">
+                  <p className="font-[400] md:text-[40px]   text-[16px]">
+                    86,700
+                  </p>
+                  <p className="font-[500] md:text-[16px] text-[10px]">
                     Successfully Project Completed
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-[50%] text-white pt-5 ">
-              <h4>OUR INTRODUCTION</h4>
+            <div className="md:w-[50%]   w-[100%] text-white md:pt-5  pt-10  ">
+              <div className="hidden  md:block">
+                <h4>OUR INTRODUCTION</h4>
 
-              <h2 className=" text-white font-[700] text-[50px]   my-5">
-                Here’s a Bit Of Who <br></br>We Are
-              </h2>
-              <h4 className=" text-secondary text-[30px] font-[500] ">
+                <h2 className=" text-white font-[700] text-[50px]   my-5">
+                  Here’s a Bit Of Who <br></br>We Are
+                </h2>
+              </div>
+
+              <h4 className=" text-secondary md:text-[30px]  my-9   text-[20px] font-[500] ">
                 We’re a Leader in the Crocodile Market
               </h4>
               <p>
@@ -86,32 +101,34 @@ export default function Home() {
                 regarding partnerships therfore any investment opportunities are
                 welcome.
               </p>
-
-              <div className="flex items-center gap-5 mt-7 ">
-                <FaCheckCircle className="text-secondary " />{" "}
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div className="flex items-center gap-5 my-4 ">
-                <FaCheckCircle className="text-secondary " />{" "}
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div className="flex items-center gap-5  my-4">
-                <FaCheckCircle className="text-secondary " />{" "}
-                <p>Lorem ipsum dolor sit amet</p>
+              <div className="  mt-11  ">
+                <div className="flex items-center gap-5 mt-7 ">
+                  <FaCheckCircle className="text-secondary " />{" "}
+                  <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div className="flex items-center gap-5 my-4 ">
+                  <FaCheckCircle className="text-secondary " />{" "}
+                  <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div className="flex items-center gap-5  my-4">
+                  <FaCheckCircle className="text-secondary " />{" "}
+                  <p>Lorem ipsum dolor sit amet</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <h1 className="text-center text-white text-[50px] font-[700] mt-[200px]">
+          <h1 className="md:text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]   text-left">
             {" "}
             Quality Products & Services
           </h1>
         </Container>
       </div>
 
-      <div className="mt-[80px]">
+      <div className="mt-[80px] hidden md:flex">
         <Image src={offering} alt="" className="w-full" />
       </div>
+      <div className="  "></div>
 
       <div className="mt-[80px] ">
         <Image src={video} alt="" className="w-full" />
@@ -124,10 +141,33 @@ export default function Home() {
 
         <Container>
           <div className="flex justify-between  my-[100px]">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard
+              imagePath={Eggs}
+              alt=""
+              title="Agriculture "
+              label=" Natural way of agriculture"
+            />
+
+            <ProductCard
+              imagePath={Chicken}
+              alt=""
+              title="Agriculture "
+              label=" Natural way of agriculture"
+            />
+
+            <ProductCard
+              imagePath={Cock}
+              alt=""
+              title="Agriculture "
+              label=" Natural way of agriculture"
+            />
+
+            <ProductCard
+              imagePath={skin}
+              alt=""
+              title="Agriculture "
+              label=" Natural way of agriculture"
+            />
           </div>
         </Container>
       </div>

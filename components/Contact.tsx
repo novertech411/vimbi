@@ -2,7 +2,7 @@ import React from "react";
 
 import Button from "@/components/button";
 
-function contact() {
+function Contact() {
   return (
     <div className="flex  johns text-white">
       <div>
@@ -75,4 +75,4 @@ function contact() {
   );
 }
 
-export default contact;
+export default Contact;

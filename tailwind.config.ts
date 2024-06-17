@@ -19,6 +19,12 @@ const config: Config = {
         "hero-section3": "url('/images/work.png')",
         footerbg: "url('/images/footerbg.png')",
         blogwave: "url('/images/wave.png')",
+        aboutbg: "url('/images/aboutbg.png')",
+        productbg: "url('/images/productbg.png')",
+        blogbg: "url('/images/blogbg.png')",
+        gallarybg: "url('/images/gallarybg.png')",
+        contactbg: "url('/images/contactbg.png')",
+        mobilebg: "url('/images/mobile.png')",
       },
 
       fontFamily: {
