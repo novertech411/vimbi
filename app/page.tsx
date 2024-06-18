@@ -4,14 +4,13 @@ import Container from "@/components/Container";
 import farm from "@/public/images/farm.png";
 import { FaCheckCircle } from "react-icons/fa";
 import icon from "@/public/images/icon.png";
-
+import Downarrow from "@/components/icon/vector";
 import qoutes from "@/public/images/Qouts.png";
 import review from "@/public/images/review.png";
 import skin from "@/public/images/skin.png";
 import Conatact from "@/components/Contact";
 import BlogSection from "@/components/BlogSection";
 import Countdown from "@/components/Countdown";
-
 import Productsection from "@/components/Productsection";
 import Selectproduct from "@/components/Selectproduct";
 
@@ -25,7 +24,7 @@ export default function Home() {
 
   return (
     <main className="   ">
-      <div className="  bg-cover  bg-mobilebg    h-[680px] md:bg-hero-section">
+      <div className="  bg-cover  bg-mobilebg    md:h-[680px] md:bg-hero-section   h-[100vh] relative">
         <Container>
           <div className="pt-[128px]   lavvic">
             <Image src={title} alt="" />
@@ -47,6 +46,9 @@ export default function Home() {
             Discover More
           </button>
         </Container>
+        <div className="flex justify-center h-[300px] items-center  md:hidden">
+          <Downarrow />
+        </div>
       </div>
 
       <div className=" bg-hero-section1 bg-no-repeat  h-full  pt-[80px] ">

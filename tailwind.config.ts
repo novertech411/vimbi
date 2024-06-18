@@ -25,6 +25,11 @@ const config: Config = {
         gallarybg: "url('/images/gallarybg.png')",
         contactbg: "url('/images/contactbg.png')",
         mobilebg: "url('/images/mobile.png')",
+        blogmob: "url('/images/bogmob.png')",
+        aboutmob: "url('/images/aboutmob.png')",
+        gallarymob: "url('/images/gallarymob.png')",
+        contactmob: "url('/images/contactmob.png')",
+        productmob: "url('/images/productmob.png')",
       },
 
       fontFamily: {

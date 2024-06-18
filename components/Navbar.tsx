@@ -21,12 +21,12 @@ function Navbar() {
       <Container>
         <div className=" text-white  py-6  md:relative   absolute  flex  justify-between   w-[90%] ">
           <Image
-            className="  hidden  md:flex h-[50px]  z-10  "
+            className="  hidden  md:flex h-[50px]  z-20  "
             src={logo}
             alt="logo"
           ></Image>
           <Image
-            className="  w-[45px] h-8 z-10 flex md:hidden  "
+            className="  w-[45px] h-8 z-20 flex md:hidden  "
             src={logohead}
             alt="logo"
           ></Image>
@@ -97,13 +97,13 @@ function Navbar() {
             className=" w-[32px] h-[32px]   flex md:hidden     "
             onClick={handleToggle}
           >
-            <Image className=" z-10" src={toggle} alt="toggle z-3" />
+            <Image className=" z-20" src={toggle} alt="toggle z-3" />
           </div>
         </div>
       </Container>
 
       <ul
-        className={`ml-auto century font-[400] text-[13px] gap-11 items-center  h-[1040px] absolute p-[80px] flex flex-col mx-auto   lg:hidden text-white bg-primary w-full ${
+        className={`ml-auto century font-[400] text-[13px] gap-11 items-center  h-[1040vh] absolute p-[80px] flex flex-col mx-auto  z-10  lg:hidden text-white bg-primary w-full ${
           isMenuVisible ? "flex" : "hidden"
         }`}
       >
@@ -117,7 +117,7 @@ function Navbar() {
           </li>
         </Link>
 
-        <Link href="/" onClick={handleToggle}>
+        <Link href="/about" onClick={handleToggle}>
           <li
             className={` py-1  border-b-2  border-primary     hover:border-secondary  ${
               pathname === "/about" ? "border-secondary" : ""
@@ -127,7 +127,7 @@ function Navbar() {
           </li>
         </Link>
 
-        <Link href="/ " onClick={handleToggle}>
+        <Link href="/products " onClick={handleToggle}>
           <li
             className={` py-1  border-b-2  border-primary     hover:border-secondary  ${
               pathname === "/products" ? "border-secondary" : ""
@@ -137,7 +137,7 @@ function Navbar() {
           </li>
         </Link>
 
-        <Link href="/" onClick={handleToggle}>
+        <Link href="/gallary" onClick={handleToggle}>
           <li
             className={` py-1  border-b-2  border-primary     hover:border-secondary  ${
               pathname === "/gallary" ? "border-secondary" : ""
@@ -147,7 +147,7 @@ function Navbar() {
           </li>
         </Link>
 
-        <Link href="/" onClick={handleToggle}>
+        <Link href="/blog" onClick={handleToggle}>
           <li
             className={` py-1  border-b-2  border-primary     hover:border-secondary  ${
               pathname === "/blog" ? "border-secondary" : ""
@@ -157,7 +157,7 @@ function Navbar() {
           </li>
         </Link>
 
-        <Link href="/" onClick={handleToggle}>
+        <Link href="/contact" onClick={handleToggle}>
           <li
             className={` py-1  border-b-2  border-primary     hover:border-secondary  ${
               pathname === "/contact" ? "border-secondary" : ""

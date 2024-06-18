@@ -13,23 +13,25 @@ import gallary9 from "@/public/images/gallary9.jpeg";
 function page() {
   return (
     <div>
-      <div className=" text-center     bg-gallarybg h-[300px]  bg-no-repeat bg-white text-white flex items-center justify-center">
-        <h3 className=" inter text-[70px] font-[600]">Gallary </h3>
+      <div className=" text-center     md:bg-gallarybg md:h-[300px] h-[250px] bg-no-repeat bg-white text-white flex items-center justify-center    md:bg-auto  bg-cover bg-blogmob">
+        <h3 className=" inter md:text-[70px] font-[600] text-[40px] ">
+          Gallary{" "}
+        </h3>
       </div>
       <div className="      ">
         <div className="bg-blogwave  bg-[#263C28] h-[500px]  inter text-white pt-[80px]">
-          <h1 className=" text-center mt-4  lavvic  text-[50px] font-[700]">
-            News & Articles
+          <h1 className=" text-center mt-4  lavvic  md:text-[50px] font-[700]  text-[20px]">
+            Photos
           </h1>
         </div>
 
-        <div className="relative h-[1000px]  flex justify-center ">
-          <div className=" -mt-[200px]   grid-center  justify-center absolute mx-full grid grid-cols-4 gap-4  max-w-[1024px]">
-            <Image src={gallary1} alt="crock" className=" rounded-lg " />
+        <div className="relative md:h-[1000px]    h-[400px] flex justify-center z-0">
+          <div className=" -mt-[200px]   grid-center  justify-center absolute mx-full grid z-  md:grid-cols-4:gap-4    grid-cols-3  gap-2 max-w-[1024px] px-2  ">
             <Image src={gallary2} alt="crock" className=" rounded-lg" />
             <Image src={gallary3} alt="crock" className=" rounded-lg" />
             <Image src={gallary4} alt="crock" className=" rounded-lg" />
             <Image src={gallary5} alt="crock" className=" rounded-lg" />
+            <Image src={gallary1} alt="crock" className=" rounded-lg " />
             <Image src={gallary6} alt="crock" className=" rounded-lg" />
             <Image src={gallary7} alt="crock" className=" rounded-lg" />
             <Image src={gallary8} alt="crock" className=" rounded-lg" />

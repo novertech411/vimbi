@@ -36,7 +36,9 @@ function BlogCard({
             <p>2 Comments</p>
           </div>
         </div>
-        <p className=" font-[700]  text-[24px] mt-3 text-white">{label}</p>
+        <p className=" font-[700]  md:text-[24px]   text-[18px] mt-3 text-white">
+          {label}
+        </p>
       </div>
     </div>
   );
