@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <main className=" relative ">
-      <div className=" absolute ">
+      <div className=" top-1">
         {" "}
         <Bot />
       </div>
