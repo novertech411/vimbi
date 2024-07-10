@@ -13,6 +13,7 @@ import BlogSection from "@/components/BlogSection";
 import Countdown from "@/components/Countdown";
 import Productsection from "@/components/Productsection";
 import Selectproduct from "@/components/Selectproduct";
+import Bot from "@/components/icon/Bot";
 
 export default function Home() {
   let slides = [
@@ -23,7 +24,12 @@ export default function Home() {
   ];
 
   return (
-    <main className="   ">
+    <main className=" relative ">
+      <div className=" absolute ">
+        {" "}
+        <Bot />
+      </div>
+
       <div className="  bg-cover  bg-mobilebg    md:h-[680px] md:bg-hero-section   h-[100vh] relative">
         <Container>
           <div className="pt-[128px]   lavvic">
