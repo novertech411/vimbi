@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import offering from "@/public/images/Frame 1000001069.png";
@@ -8,6 +9,7 @@ import prod3 from "@/public/images/product3.png";
 import prod4 from "@/public/images/product4.png";
 import prod5 from "@/public/images/product5.png";
 import vmobile from "@/public/images/videomobile.png";
+import YouTube from "react-youtube";
 
 function Productsection() {
   return (
@@ -73,14 +75,6 @@ function Productsection() {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="mt-[80px]  hidden md:flex ">
-        <Image src={video} alt="" className="w-full" />
-      </div>
-
-      <div className="md:mt-[80px] mt-0  block md:hidden ">
-        <Image src={vmobile} alt="" className="w-full" />
       </div>
     </div>
   );

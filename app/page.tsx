@@ -14,6 +14,7 @@ import Countdown from "@/components/Countdown";
 import Productsection from "@/components/Productsection";
 import Selectproduct from "@/components/Selectproduct";
 import Bot from "@/components/icon/Bot";
+import YoutubeVideo from "@/components/Youtub";
 
 export default function Home() {
   let slides = [
@@ -126,6 +127,10 @@ export default function Home() {
       </div>
 
       <Productsection />
+
+      <div className="mt-[80px]  ">
+        <YoutubeVideo />
+      </div>
 
       <Selectproduct />
 

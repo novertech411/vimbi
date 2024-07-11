@@ -9,6 +9,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        "5xl": "1300px",
+      },
+      maxHeight: {
+        "700px": "700px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

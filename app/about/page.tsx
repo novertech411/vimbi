@@ -5,6 +5,12 @@ import farm from "@/public/images/farm.png";
 import { FaCheckCircle } from "react-icons/fa";
 import icon from "@/public/images/icon.png";
 import video from "@/public/images/video.png";
+import ValueCard from "@/components/ValueCard";
+import Team from "@/components/icon/Team ";
+import Innova from "@/components/icon/Innova";
+import Inte from "@/components/icon/Inte";
+import Commit from "@/components/icon/Commit";
+import YoutubeVideo from "@/components/Youtub";
 
 function page() {
   return (
@@ -16,6 +22,20 @@ function page() {
         </h3>
       </div>
 
+      <div>
+        {" "}
+        <h1 className="md:text-center text-secondary md:text-[50px] font-[700] mt-[100px]    text-[40px]   text-left">
+          {" "}
+          Vimbai's Organic A Legacy of Quality
+        </h1>
+        <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
+          Honoring Tradition, Cultivating Excellence: For{" "}
+          <span className="text-secondary"> over a decad</span> generations,
+          we've been dedicated to delivering the highest standards of organic
+          meats, eggs and materials, ensuring every bite is a taste of
+          excellence and every skin speaks excellence.
+        </p>
+      </div>
       <div className=" bg-hero-section1 bg-no-repeat  h-full  pt-[80px] ">
         <Container>
           <div className=" block   md:hidden ">
@@ -81,16 +101,49 @@ function page() {
               </div>
             </div>
           </div>
-
-          <h1 className="md:text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]   text-left">
-            {" "}
-            Quality Products & Services
-          </h1>
         </Container>
       </div>
+      <h1 className="md:text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]   text-left">
+        {" "}
+        Our values
+      </h1>
+      <Container>
+        <p className=" max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px] ">
+          {" "}
+          Our <span className="text-secondary"> Values</span> Define Us:
+          Integrity, Team work, and Quality are at the Core of Everything We Do.
+          Discover How Our Commitment to Ethical Practices and Excellence Sets
+          Us Apart.
+        </p>
+        <div className=" mt-11">
+          <div className=""></div>
+          <div className=" flex flex-wrap gap-10 justify-center">
+            <ValueCard
+              title="Integrity "
+              icon={<Inte />}
+              label="At Vimbai's Organic, integrity is our foundation, ensuring products you can trust."
+            />
+            <ValueCard
+              title="Team Work"
+              icon={<Team />}
+              label="Over here, teamwork fuels our success, fostering collaboration for exceptional results."
+            />
+            <ValueCard
+              title="Innovation"
+              icon={<Innova />}
+              label="Innovation drives us forward, pushing boundaries for better products and experiences"
+            />
+            <ValueCard
+              title="Commitment"
+              icon={<Commit />}
+              label="Commitment is our strength, driving us to deliver excellence in every product and service."
+            />
+          </div>
+        </div>
+      </Container>
 
-      <div className="mt-[80px] ">
-        <Image src={video} alt="" className="w-full" />
+      <div className="mt-[80px]  ">
+        <YoutubeVideo />
       </div>
     </div>
   );
