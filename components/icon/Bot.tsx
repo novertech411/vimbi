@@ -1,8 +1,9 @@
 import React from "react";
+import "@/components/animation/bounce.css";
 
 function Bot({ classes }: { classes?: string }) {
   return (
-    <div>
+    <div className={`bounce ${classes}`}>
       <svg
         width="71"
         height="70"

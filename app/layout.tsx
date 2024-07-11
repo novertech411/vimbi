@@ -8,6 +8,9 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import "./style.css";
 
+import Bot from "@/components/icon/Bot";
+import { motion } from "framer-motion";
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
@@ -49,9 +52,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className=" h-screen bg-primary   ">
+      <body className=" h-screen bg-primary   relative ">
         <Navbar />
         <div className={`${inter.variable} ${livvic.variable}   `}>
+          <Bot classes="fixed bottom-7 right-9 z-20 " />
+
           {children}
         </div>
         <Footer />

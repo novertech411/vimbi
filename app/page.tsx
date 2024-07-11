@@ -24,12 +24,7 @@ export default function Home() {
   ];
 
   return (
-    <main className=" relative ">
-      <div className=" top-1">
-        {" "}
-        <Bot />
-      </div>
-
+    <main className="  ">
       <div className="  bg-cover  bg-mobilebg    md:h-[680px] md:bg-hero-section   h-[100vh] relative">
         <Container>
           <div className="pt-[128px]   lavvic">

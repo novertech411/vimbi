@@ -37,7 +37,7 @@ const config: Config = {
         lavvic: ["var-(--font-lavvic)"],
         century: ["var-(--font-century-Gothic)"],
         still: ["var-(--font-johns)"],
-        johnstown: ["Johnstown", "sans"],
+        johnstown: ["Johnstown", "sans-serif"],
       },
 
       colors: {
