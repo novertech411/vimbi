@@ -11,6 +11,9 @@ import Innova from "@/components/icon/Innova";
 import Inte from "@/components/icon/Inte";
 import Commit from "@/components/icon/Commit";
 import YoutubeVideo from "@/components/Youtub";
+import farmporge from "@/public/images/farmorage.png";
+import feed from "@/public/images/feedorgasnic.png";
+import meat from "@/public/images/meatorganic.png";
 
 function page() {
   return (
@@ -24,7 +27,7 @@ function page() {
 
       <div>
         {" "}
-        <h1 className="md:text-center text-secondary md:text-[50px] font-[700] mt-[100px]    text-[40px]   text-left">
+        <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    px-6">
           {" "}
           Vimbai's Organic A Legacy of Quality
         </h1>
@@ -113,7 +116,7 @@ function page() {
           </div>
         </Container>
       </div>
-      <h1 className="md:text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]   text-left">
+      <h1 className=" text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]  ">
         {" "}
         Our values
       </h1>
@@ -154,6 +157,94 @@ function page() {
 
       <div className="mt-[80px]  ">
         <YoutubeVideo />
+      </div>
+
+      <div>
+        <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    px-6 ">
+          {" "}
+          We’re Organic.
+          <span className="text-white"> Let’s Prove It.</span>
+        </h1>
+
+        <Container>
+          <div className="   flex text-white  justify-center  gap-11  flex-wrap-reverse my-11   ">
+            <div className=" max-w-[550px] px-5 flex items-center ">
+              <div>
+                <h3 className=" font-[600] text-[30px] my-6">
+                  {" "}
+                  Organic Farming Practices
+                </h3>
+                <p className="text-[18px]">
+                  At Vimbai's Organic, we believe in sustainable and ethical
+                  farming practices. Our commitment to organic farming means
+                  that our animals are raised without antibiotics, hormones, or
+                  GMOs. We prioritize natural methods to ensure the health and
+                  well-being of our livestock, resulting in high-quality organic
+                  meats and eggs.
+                </p>
+              </div>
+            </div>
+            <Image src={farmporge} alt="farm" className=" max-w-[600px]" />
+          </div>
+
+          <div className="   flex text-white  justify-center  gap-11   flex-wrap-reverse my-11  ">
+            <Image src={feed} alt="farm" className=" max-w-[600px]" />
+            <div className=" max-w-[550px] px-5 flex items-center ">
+              <div>
+                <h3 className=" font-[600] text-[30px] my-6">
+                  {" "}
+                  Natural Feed and Environment
+                </h3>
+                <p className="text-[18px]">
+                  Our animals are fed a natural diet free from synthetic
+                  additives and pesticides. We prioritize their access to open
+                  spaces and natural habitats, allowing them to exhibit natural
+                  behaviors and thrive in a stress-free environment. This
+                  holistic approach contributes to the superior taste and
+                  nutritional value of our organic meats and eggs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="   flex text-white  justify-center  gap-11  flex-wrap-reverse my-11  ">
+            <div className=" max-w-[550px] px-5 flex items-center ">
+              <div>
+                <h3 className=" font-[600] text-[30px] my-6">
+                  {" "}
+                  Animal Welfare and Care
+                </h3>
+                <p className="text-[18px]">
+                  Organic products offer numerous health benefits. They are free
+                  from synthetic chemicals, pesticides, and antibiotics, making
+                  them a healthier choice for you and your family. Our organic
+                  meats and eggs are rich in nutrients, vitamins, and essential
+                  fatty acids, contributing to a balanced and nutritious diet.
+                </p>
+              </div>
+            </div>
+            <Image src={farmporge} alt="farm" className=" max-w-[600px]" />
+          </div>
+
+          <div className="   flex text-white  justify-center  gap-11   flex-wrap-reverse my-11  ">
+            <Image src={meat} alt="farm" className=" max-w-[500px]" />
+            <div className=" max-w-[550px] px-5 flex items-center ">
+              <div>
+                <h3 className=" font-[600] text-[30px] my-6">
+                  {" "}
+                  Health Benefits of Organic Products
+                </h3>
+                <p className="text-[18px]">
+                  Organic products offer numerous health benefits. They are free
+                  from synthetic chemicals, pesticides, and antibiotics, making
+                  them a healthier choice for you and your family. Our organic
+                  meats and eggs are rich in nutrients, vitamins, and essential
+                  fatty acids, contributing to a balanced and nutritious diet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Container>
       </div>
     </div>
   );
