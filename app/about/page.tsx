@@ -160,7 +160,7 @@ function page() {
       </div>
 
       <div>
-        <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    px-6 ">
+        <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[35px]    px-3 ">
           {" "}
           We’re Organic.
           <span className="text-white"> Let’s Prove It.</span>
@@ -168,13 +168,13 @@ function page() {
 
         <Container>
           <div className="   flex text-white  justify-center  gap-11  flex-wrap-reverse my-11   ">
-            <div className=" max-w-[550px] px-5 flex items-center ">
+            <div className=" max-w-[550px] px-1 flex items-center ">
               <div>
-                <h3 className=" font-[600] text-[30px] my-6">
+                <h3 className=" font-[600] text-[30px] md:text-left my-6 text-center text-secondary">
                   {" "}
                   Organic Farming Practices
                 </h3>
-                <p className="text-[18px]">
+                <p className="text-[18px] text-center md:text-left">
                   At Vimbai's Organic, we believe in sustainable and ethical
                   farming practices. Our commitment to organic farming means
                   that our animals are raised without antibiotics, hormones, or
@@ -184,14 +184,22 @@ function page() {
                 </p>
               </div>
             </div>
-            <Image src={farmporge} alt="farm" className=" max-w-[600px]" />
+            <Image
+              src={farmporge}
+              alt="farm"
+              className=" md:max-w-[600px]  max-w-[300px]"
+            />
           </div>
 
-          <div className="   flex text-white  justify-center  gap-11   flex-wrap-reverse my-11  ">
-            <Image src={feed} alt="farm" className=" max-w-[600px]" />
+          <div className="   flex text-white  justify-center  gap-11   flex-wrap my-11  ">
+            <Image
+              src={feed}
+              alt="farm"
+              className=" md:max-w-[600px] max-w-[300px]"
+            />
             <div className=" max-w-[550px] px-5 flex items-center ">
               <div>
-                <h3 className=" font-[600] text-[30px] my-6">
+                <h3 className=" font-[600] text-[30px] md:text-left my-6 text-center text-secondary">
                   {" "}
                   Natural Feed and Environment
                 </h3>
@@ -210,11 +218,11 @@ function page() {
           <div className="   flex text-white  justify-center  gap-11  flex-wrap-reverse my-11  ">
             <div className=" max-w-[550px] px-5 flex items-center ">
               <div>
-                <h3 className=" font-[600] text-[30px] my-6">
+                <h3 className=" font-[600] text-[30px] md:text-left my-6 text-center text-secondary">
                   {" "}
                   Animal Welfare and Care
                 </h3>
-                <p className="text-[18px]">
+                <p className="text-[18px] text-center md:text-left">
                   Organic products offer numerous health benefits. They are free
                   from synthetic chemicals, pesticides, and antibiotics, making
                   them a healthier choice for you and your family. Our organic
@@ -223,18 +231,26 @@ function page() {
                 </p>
               </div>
             </div>
-            <Image src={farmporge} alt="farm" className=" max-w-[600px]" />
+            <Image
+              src={farmporge}
+              alt="farm"
+              className=" md:max-w-[600px]  max-w-[300px]"
+            />
           </div>
 
-          <div className="   flex text-white  justify-center  gap-11   flex-wrap-reverse my-11  ">
-            <Image src={meat} alt="farm" className=" max-w-[500px]" />
+          <div className="   flex text-white  justify-center  gap-11   flex-wrap my-11  ">
+            <Image
+              src={meat}
+              alt="farm"
+              className=" md:max-w-[600px]  max-w-[300px]"
+            />
             <div className=" max-w-[550px] px-5 flex items-center ">
               <div>
-                <h3 className=" font-[600] text-[30px] my-6">
+                <h3 className=" font-[600] text-[30px] md:text-left my-6 text-center text-secondary">
                   {" "}
                   Health Benefits of Organic Products
                 </h3>
-                <p className="text-[18px]">
+                <p className="text-[18px] text-center md:text-left">
                   Organic products offer numerous health benefits. They are free
                   from synthetic chemicals, pesticides, and antibiotics, making
                   them a healthier choice for you and your family. Our organic
