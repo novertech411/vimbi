@@ -1,5 +1,7 @@
 import Container from "@/components/Container";
+import Image from "next/image";
 import React from "react";
+import blogimg from "@/public/images/blog2.webp";
 
 function page() {
   return (
@@ -17,6 +19,14 @@ function page() {
           Farmer
         </h1>
 
+        <div className=" mb-11">
+          <Image
+            src={blogimg}
+            alt="img"
+            className="md:max-w-[700px]  max-w-[320px] mx-auto"
+          />
+        </div>
+
         <div className="  text-white px-3 md:text-[20px] text-[15px] max-w-[1000px]  mx-auto">
           <p>
             We are incredibly proud to highlight the achievements of Vimbai
@@ -27,9 +37,13 @@ function page() {
             Zimbabwe’s first female crocodile farmer, blazing a trail in a
             male-dominated industry.
           </p>
+          <br></br>
+          <br></br>
           <p>
             <strong>A Day in the Life of a Crocodile Farmer</strong>
           </p>
+          <br></br>
+
           <p>
             Vimbai starts her day with a unique and challenging routine—flushing
             out dirty water from the ponds housing her float of freshwater Nile
@@ -46,8 +60,12 @@ function page() {
             the way for future generations of female farmers.
           </p>
           <p>
+            <br></br>
+            <br></br>
             <strong>Breaking Barriers and Achieving Accolades</strong>
           </p>
+          <br></br>
+
           <p>
             In a sector where few have ventured, Vimbai has not only entered but
             excelled. Last year, she was crowned Female Farmer of the Year and
@@ -62,9 +80,13 @@ function page() {
             disenfranchised groups, striving to create a positive impact in her
             community.
           </p>
+          <br></br>
+          <br></br>
           <p>
             <strong>Empowering Women and Prioritizing Employees</strong>
           </p>
+          <br></br>
+
           <p>
             Vimbai’s companies are unique not just for their focus on crocodile
             farming but also for their commitment to gender equity and employee
@@ -79,9 +101,13 @@ function page() {
             protagonist in her story, overcoming barriers and continuing to push
             forward.
           </p>
+          <br></br>
+          <br></br>
           <p>
             <strong>A Vision for the Future</strong>
           </p>
+          <br></br>
+
           <p>
             Vimbai’s story is one of resilience, innovation, and determination.
             Her work in crocodile farming, piggery, organic poultry, and cattle
@@ -98,6 +124,8 @@ function page() {
             Organic Poultry and Crocodile Meat Supplies, we are inspired by
             Vimbai’s achievements and commitment to making a difference.
           </p>
+          <br></br>
+          <br></br>
           <p>
             Her journey is a testament to the power of perseverance, and we look
             forward to supporting her continued success. Stay tuned for more

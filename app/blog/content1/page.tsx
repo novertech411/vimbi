@@ -1,5 +1,7 @@
 import Container from "@/components/Container";
+import Image from "next/image";
 import React from "react";
+import blogimg from "@/public/images/blog1.jpg";
 
 function page() {
   return (
@@ -16,7 +18,13 @@ function page() {
           Vimbies Farms Wins Female Farmer of the Year at 2023 National Young
           Farmers Awards
         </h1>
-
+        <div className=" mb-11">
+          <Image
+            src={blogimg}
+            alt="img"
+            className="md:max-w-[700px]  max-w-[320px] mx-auto"
+          />
+        </div>
         <div className="  text-white px-3 md:text-[20px] text-[15px] max-w-[1000px]  mx-auto">
           <p>
             We are thrilled to announce that Vimbai Dzingirai, the owner of

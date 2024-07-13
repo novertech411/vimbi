@@ -1,8 +1,9 @@
 import React from "react";
 import BlogCard from "@/components/BlogCard";
-import greenskin from "@/public/images/image 26 (2).png";
+import greenskin from "@/public/images/blog1.jpg";
 import yellowskin from "@/public/images/image 26 (1).png";
-import grayskin from "@/public/images/image 26.png";
+import grayskin from "@/public/images/blog2.webp";
+import Link from "next/link";
 
 function page() {
   return (
@@ -22,34 +23,45 @@ function page() {
 
         <div className="relative md:h-[1000px]  h-[360vh] flex justify-center flex-wrap   ">
           <div className=" -mt-[200px]  absolute mx-full flex flex-wrap gap-9 justify-center  px-3">
-            <BlogCard
-              label="Taking seamless key indicators offline to"
-              imagePath={greenskin}
-              alt="alt"
-            />
-            <BlogCard
-              label="Taking seamless key indicators offline to"
-              imagePath={grayskin}
-              alt="alt"
-            />{" "}
-            <BlogCard
-              label="Taking seamless key indicators offline to"
-              imagePath={yellowskin}
-              alt="alt"
-            />
-            <BlogCard
-              label="Taking seamless key indicators offline to"
-              imagePath={yellowskin}
-              alt="alt"
-            />
+            <Link href="./blog/content1">
+              <BlogCard
+                label="Female Farmer of the Year at 2023 National Young
+          Farmers Awards"
+                date="12, Nov 2024"
+                imagePath={greenskin}
+                alt="alt"
+              />
+            </Link>
+            <Link href="./blog/content2">
+              <BlogCard
+                label="Blazing a Trail: Vimbai Dzingirai, Zimbabwe’s Only Female Crocodile Farmer"
+                imagePath={grayskin}
+                date="24, Apr 2024"
+                alt="alt"
+              />{" "}
+            </Link>
             <BlogCard
               label="Taking seamless key indicators offline to"
               imagePath={yellowskin}
+              date="1, Jan 2024"
               alt="alt"
             />
             <BlogCard
               label="Taking seamless key indicators offline to"
               imagePath={yellowskin}
+              date="19, May 2023"
+              alt="alt"
+            />
+            <BlogCard
+              label="Taking seamless key indicators offline to"
+              imagePath={yellowskin}
+              alt="alt"
+              date="6, Jun  2022"
+            />
+            <BlogCard
+              label="Taking seamless key indicators offline to"
+              imagePath={yellowskin}
+              date="14, May 2024"
               alt="alt"
             />
           </div>

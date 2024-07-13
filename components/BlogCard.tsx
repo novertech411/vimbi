@@ -8,22 +8,24 @@ function BlogCard({
   imagePath,
   alt,
   label,
+  date,
 }: {
   imagePath: StaticImageData;
   alt: string;
   label: string;
+  date: string;
 }) {
   return (
     <div className="bg-[#263C28] rounded-lg   max-w-[400px]  ">
       <Image
         src={imagePath}
         alt={alt}
-        className="w-full  rounded-t-lg     max-w-[360x]"
+        className="w-full  h-[300px] rounded-t-lg     max-w-[360x]"
       />
 
       <div className="p-6 relative">
         <div className=" bg-secondary rounded-tl-lg py-[7px] px-[14px]  absolute -right-0   -top-9">
-          <p>3 May, 2023</p>
+          <p>{date}</p>
         </div>
 
         <div className="flex gap-8  text-[15px] text-white">

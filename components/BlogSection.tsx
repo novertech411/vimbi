@@ -1,9 +1,9 @@
 import React from "react";
 import BlogCard from "./BlogCard";
 import Container from "./Container";
-import greenskin from "@/public/images/image 26 (2).png";
+import greenskin from "@/public/images/blog1.jpg";
 import yellowskin from "@/public/images/image 26 (1).png";
-import grayskin from "@/public/images/image 26.png";
+import grayskin from "@/public/images/blog2.webp";
 import Link from "next/link";
 
 function BlogSection() {
@@ -18,22 +18,28 @@ function BlogSection() {
 
       <div className="relative md:h-[500px]  h-[1400px] flex justify-center ">
         <div className="flex -mt-[200px]  absolute mx-full justify-center gap-9  flex-wrap">
-          <Link href="./blog/contect">
+          <Link href="./blog/content1">
             <BlogCard
               label="Female Farmer of the Year at 2023 National Young
           Farmers Awards"
+              date="12, Nov 2024"
               imagePath={greenskin}
               alt="alt"
             />
           </Link>
-          <BlogCard
-            label="Blazing a Trail: Vimbai Dzingirai, Zimbabwe’s Only Female Crocodile Farmer"
-            imagePath={grayskin}
-            alt="alt"
-          />{" "}
+          <Link href="./blog/content2">
+            <BlogCard
+              label="Blazing a Trail: Vimbai Dzingirai, Zimbabwe’s Only Female Crocodile Farmer"
+              imagePath={grayskin}
+              date="24, Apr 2024"
+              alt="alt"
+            />{" "}
+          </Link>
+
           <BlogCard
             label="Taking seamless key indicators offline to"
             imagePath={yellowskin}
+            date="12, Nov 2024"
             alt="alt"
           />
         </div>

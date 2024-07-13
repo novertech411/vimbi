@@ -74,7 +74,7 @@ function page() {
           <Whatappcard
             alt="whatapp"
             imagePath={whatspp}
-            title="Broilers"
+            title="Open to talk"
             label="Orders can be placed on WhatsApp."
             subtitle="let's talk"
           />
