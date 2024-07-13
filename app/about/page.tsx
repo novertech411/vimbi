@@ -29,11 +29,11 @@ function page() {
         {" "}
         <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    px-6">
           {" "}
-          Vimbai's Organic A Legacy of Quality
+          Vimbai&quot;s Organic A Legacy of Quality
         </h1>
         <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
           Honoring Tradition, Cultivating Excellence: For{" "}
-          <span className="text-secondary"> over a decad</span>, we've been
+          <span className="text-secondary"> over a decad</span>, we&quot;ve been
           dedicated to delivering the highest standards of organic meats, eggs
           and materials, ensuring every bite is a taste of excellence and every
           skin speaks excellence.
@@ -175,12 +175,12 @@ function page() {
                   Organic Farming Practices
                 </h3>
                 <p className="text-[18px] text-center md:text-left">
-                  At Vimbai's Organic, we believe in sustainable and ethical
-                  farming practices. Our commitment to organic farming means
-                  that our animals are raised without antibiotics, hormones, or
-                  GMOs. We prioritize natural methods to ensure the health and
-                  well-being of our livestock, resulting in high-quality organic
-                  meats and eggs.
+                  At Vimbai&quot;s Organic, we believe in sustainable and
+                  ethical farming practices. Our commitment to organic farming
+                  means that our animals are raised without antibiotics,
+                  hormones, or GMOs. We prioritize natural methods to ensure the
+                  health and well-being of our livestock, resulting in
+                  high-quality organic meats and eggs.
                 </p>
               </div>
             </div>
