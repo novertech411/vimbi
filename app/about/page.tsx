@@ -26,9 +26,7 @@ function page() {
       </div>
 
       <div>
-        {" "}
         <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    px-6">
-          {" "}
           Vimbai&quot;s Organic A Legacy of Quality
         </h1>
         <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
