@@ -104,16 +104,26 @@ export default function Home() {
               </p>
               <div className="  mt-11  ">
                 <div className="flex items-center gap-5 mt-7 ">
-                  <FaCheckCircle className="text-secondary " />{" "}
-                  <p>Lorem ipsum dolor sit amet</p>
+                  <p>
+                    Our Mission is to provide all our Partners and Clients with
+                    high quality, cost-effective products and services that can
+                    meet their needs.
+                  </p>
                 </div>
                 <div className="flex items-center gap-5 my-4 ">
-                  <FaCheckCircle className="text-secondary " />{" "}
-                  <p>Lorem ipsum dolor sit amet</p>
+                  <p>
+                    We see ourselves becoming the most successful farm
+                    organisation leading the supply chain of all our products
+                    and services in Zimbabwe aswell as the whole of africa..
+                  </p>
                 </div>
                 <div className="flex items-center gap-5  my-4">
-                  <FaCheckCircle className="text-secondary " />{" "}
-                  <p>Lorem ipsum dolor sit amet</p>
+                  <p>
+                    I was Mentored & started a partnership in masvingo but i
+                    later ventured my own huge establishment in Darwendale which
+                    has grown to be a market leader in the whole mashonaland
+                    region.
+                  </p>
                 </div>
               </div>
             </div>

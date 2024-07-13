@@ -30,10 +30,10 @@ function page() {
         </h1>
         <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
           Honoring Tradition, Cultivating Excellence: For{" "}
-          <span className="text-secondary"> over a decad</span> generations,
-          we've been dedicated to delivering the highest standards of organic
-          meats, eggs and materials, ensuring every bite is a taste of
-          excellence and every skin speaks excellence.
+          <span className="text-secondary"> over a decad</span>, we've been
+          dedicated to delivering the highest standards of organic meats, eggs
+          and materials, ensuring every bite is a taste of excellence and every
+          skin speaks excellence.
         </p>
       </div>
       <div className=" bg-hero-section1 bg-no-repeat  h-full  pt-[80px] ">
@@ -87,16 +87,26 @@ function page() {
               </p>
               <div className="  mt-11  ">
                 <div className="flex items-center gap-5 mt-7 ">
-                  <FaCheckCircle className="text-secondary " />{" "}
-                  <p>Lorem ipsum dolor sit amet</p>
+                  <p>
+                    Our Mission is to provide all our Partners and Clients with
+                    high quality, cost-effective products and services that can
+                    meet their needs.
+                  </p>
                 </div>
                 <div className="flex items-center gap-5 my-4 ">
-                  <FaCheckCircle className="text-secondary " />{" "}
-                  <p>Lorem ipsum dolor sit amet</p>
+                  <p>
+                    We see ourselves becoming the most successful farm
+                    organisation leading the supply chain of all our products
+                    and services in Zimbabwe aswell as the whole of africa..
+                  </p>
                 </div>
                 <div className="flex items-center gap-5  my-4">
-                  <FaCheckCircle className="text-secondary " />{" "}
-                  <p>Lorem ipsum dolor sit amet</p>
+                  <p>
+                    I was Mentored & started a partnership in masvingo but i
+                    later ventured my own huge establishment in Darwendale which
+                    has grown to be a market leader in the whole mashonaland
+                    region.
+                  </p>
                 </div>
               </div>
             </div>
