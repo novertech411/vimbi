@@ -46,23 +46,27 @@ function page() {
               label="Taking seamless key indicators offline to"
               imagePath={yellowskin}
               date="1, Jan 2024"
+              authur="vimbie"
               alt="alt"
             />
             <BlogCard
               label="Taking seamless key indicators offline to"
               imagePath={yellowskin}
               date="19, May 2023"
+              authur="vimbie"
               alt="alt"
             />
             <BlogCard
               label="Taking seamless key indicators offline to"
               imagePath={yellowskin}
               alt="alt"
+              authur="vimbie"
               date="6, Jun  2022"
             />
             <BlogCard
               label="Taking seamless key indicators offline to"
               imagePath={yellowskin}
+              authur="vimbie"
               date="14, May 2024"
               alt="alt"
             />

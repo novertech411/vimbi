@@ -42,6 +42,7 @@ function BlogSection() {
             label="Taking seamless key indicators offline to"
             imagePath={yellowskin}
             date="12, Nov 2024"
+            authur="vimbie"
             alt="alt"
           />
         </div>
