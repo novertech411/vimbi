@@ -9,11 +9,13 @@ function BlogCard({
   alt,
   label,
   date,
+  authur,
 }: {
   imagePath: StaticImageData;
   alt: string;
   label: string;
   date: string;
+  authur: string;
 }) {
   return (
     <div className="bg-[#263C28] rounded-lg   max-w-[400px]  ">
@@ -30,7 +32,7 @@ function BlogCard({
 
         <div className="flex gap-8  text-[15px] text-white">
           <div className="flex gap-4 items-center">
-            <GoPerson className=" text-secondary    " /> <p>by Kevin Martin</p>
+            <GoPerson className=" text-secondary    " /> <p>By {authur}</p>
           </div>
 
           <div className="flex gap-4 items-center">

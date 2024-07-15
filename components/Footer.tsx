@@ -16,7 +16,7 @@ function Footer() {
         <Container>
           <div className="flex  justify-between md:pt-[80px] pt-0 items-center  md:flex-row flex-col">
             <p className=" font-johnstown text-[50px]  text-[#344C31]">
-              We are Leader in Agriculture Market
+              We are a Leader in Agriculture Market
             </p>
 
             <Button type="submit" label="DISCOVER MORE" classes="text-black" />

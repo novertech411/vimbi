@@ -24,6 +24,7 @@ function BlogSection() {
           Farmers Awards"
               date="12, Nov 2024"
               imagePath={greenskin}
+              authur="The Herald"
               alt="alt"
             />
           </Link>
@@ -32,6 +33,7 @@ function BlogSection() {
               label="Blazing a Trail: Vimbai Dzingirai, Zimbabwe’s Only Female Crocodile Farmer"
               imagePath={grayskin}
               date="24, Apr 2024"
+              authur="thenewshawks"
               alt="alt"
             />{" "}
           </Link>

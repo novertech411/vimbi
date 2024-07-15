@@ -27,14 +27,14 @@ function page() {
 
       <div>
         <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    px-6">
-          Vimbai&quot;s Organic A Legacy of Quality
+          Vimbai&quot;s Organic Poultry and Crocodile Meat Supplies
         </h1>
         <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
           Honoring Tradition, Cultivating Excellence: For{" "}
-          <span className="text-secondary"> over a decad</span>, we&quot;ve been
-          dedicated to delivering the highest standards of organic meats, eggs
-          and materials, ensuring every bite is a taste of excellence and every
-          skin speaks excellence.
+          <span className="text-secondary"> almost a decade</span>, we&quot;ve
+          been dedicated to delivering the highest standards of organic meats,
+          eggs and materials, ensuring every bite is a taste of excellence and
+          every skin speaks excellence.
         </p>
       </div>
       <div className=" bg-hero-section1 bg-no-repeat  h-full  pt-[80px] ">
