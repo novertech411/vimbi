@@ -81,10 +81,10 @@ function page() {
                 other vast farm products like chickens, ducks, eggs. We hope to
                 give our customers value for their money by giving them the best
                 nutritional meat found here in the Mashonaland region of
-                Zimbabwe. We prefer a clean lifestyle &amp; we&apos;re willing
-                to embrace change as a means to that end. We also have an open
-                mind regarding partnerships therefore any investment
-                opportunities are welcome.
+                Zimbabwe. We prefer a clean lifestyle &amp; we are willing to
+                embrace change as a means to that end. We also have an open mind
+                regarding partnerships therefore any investment opportunities
+                are welcome.
               </p>
               <div className="  mt-11  ">
                 <div className="flex items-center gap-5 mt-7 ">
@@ -98,7 +98,7 @@ function page() {
                   <p>
                     We see ourselves becoming the most successful farm
                     organisation leading the supply chain of all our products
-                    and services in Zimbabwe aswell as the whole of africa..
+                    and services in Zimbabwe as well as the whole of Africa..
                   </p>
                 </div>
                 <div className="flex items-center gap-5  my-4">
