@@ -26,12 +26,13 @@ function page() {
         </div>
         <div className="  text-white px-3 md:text-[20px] text-[15px] max-w-[1000px]  mx-auto">
           <p>
-            We are thrilled to announce that Vimbai Dzingirai, the owner of
-            Vimbies Farms, has been awarded the prestigious Female Farmer of the
-            Year at the 2023 National Young Farmers Awards held in Harare. The
-            National Young Farmers Awards, established by President Mnangagwa in
-            2019, aim to recognize and celebrate the contributions of young
-            farmers to agricultural production and entrepreneurship.
+            We are thrilled to announce that Vimbai Dzingirai, the Executive
+            Director of Vimbai's Crocodylidae Products, Tanning & Taxidermy, has
+            been awarded the prestigious Female Farmer of the Year at the 2023
+            National Young Farmers Awards held in Harare. The National Young
+            Farmers Awards, established by President Mnangagwa in 2019, aim to
+            recognize and celebrate the contributions of young farmers to
+            agricultural production and entrepreneurship.
             <br />
             <br />
             This year&#39;s theme, &#34;Food Security Everyday, Everywhere,
