@@ -95,6 +95,7 @@ function page() {
                   </p>
                 </div>
                 <div className="flex items-center gap-5 my-4 ">
+                  
                   <p>
                     We see ourselves becoming the most successful farm
                     organisation leading the supply chain of all our products

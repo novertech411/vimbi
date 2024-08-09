@@ -27,7 +27,7 @@ function page() {
         <div className="  text-white px-3 md:text-[20px] text-[15px] max-w-[1000px]  mx-auto">
           <p>
             We are thrilled to announce that Vimbai Dzingirai, the Executive
-            Director of Vimbai's Crocodylidae Products, Tanning & Taxidermy, has
+            Director of Vimbai&#39;s Crocodylidae Products, Tanning & Taxidermy, has
             been awarded the prestigious Female Farmer of the Year at the 2023
             National Young Farmers Awards held in Harare. The National Young
             Farmers Awards, established by President Mnangagwa in 2019, aim to
