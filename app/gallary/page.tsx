@@ -15,7 +15,7 @@ function page() {
     <div>
       <div className=" text-center     md:bg-gallarybg md:h-[300px] h-[250px] bg-no-repeat bg-white text-white flex items-center justify-center    md:bg-auto  bg-cover bg-blogmob">
         <h3 className=" inter md:text-[70px] font-[600] text-[40px] ">
-          Gallary{" "}
+          Gallery{" "}
         </h3>
       </div>
       <div className="      ">
@@ -31,9 +31,7 @@ function page() {
             <Image src={gallary3} alt="crock" className=" rounded-lg" />
             <Image src={gallary4} alt="crock" className=" rounded-lg" />
             <Image src={gallary5} alt="crock" className=" rounded-lg" />
-            <Image src={gallary1} alt="crock" className=" rounded-lg " />
-            <Image src={gallary6} alt="crock" className=" rounded-lg" />
-            <Image src={gallary7} alt="crock" className=" rounded-lg" />
+
             <Image src={gallary8} alt="crock" className=" rounded-lg" />
             <Image src={gallary9} alt="crock" className=" rounded-lg" />
           </div>
