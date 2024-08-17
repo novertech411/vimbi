@@ -19,7 +19,11 @@ function Productsection() {
       </div>
 
       <div className="mt-11  md:hidden   block">
-        <div className="h-[251px] flex relative text-white">
+        <div
+          className="h-[251px] flex relative text-white"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <Image src={prod1} alt="" className="w-full" />
           <div className="  absolute text-center inset-0  font-[700]">
             <h2 className=" text-[28px]   mt-10">Quality Crocodile Skin</h2>
@@ -30,7 +34,11 @@ function Productsection() {
           </div>
         </div>
 
-        <div className="h-[251px] flex relative text-white">
+        <div
+          className="h-[251px] flex relative text-white"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <Image src={prod2} alt="" className="w-full" />
           <div className="  absolute text-center inset-0  font-[700]">
             <h2 className=" text-[28px]   mt-10">Quality Crocodile Meat</h2>
@@ -42,7 +50,11 @@ function Productsection() {
           </div>
         </div>
 
-        <div className="h-[251px] flex relative text-white">
+        <div
+          className="h-[251px] flex relative text-white"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <Image src={prod3} alt="" className="w-full" />
           <div className="  absolute text-center inset-0  font-[700]">
             <h2 className=" text-[28px]   mt-10">Day old Broilers</h2>
@@ -54,7 +66,11 @@ function Productsection() {
           </div>
         </div>
 
-        <div className="h-[251px] flex relative text-white">
+        <div
+          className="h-[251px] flex relative text-white"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <Image src={prod4} alt="" className="w-full" />
           <div className="  absolute text-center inset-0  font-[700]">
             <h2 className=" text-[28px]   mt-10">Broilers</h2>
@@ -65,7 +81,11 @@ function Productsection() {
           </div>
         </div>
 
-        <div className="h-[251px] flex relative text-white">
+        <div
+          className="h-[251px] flex relative text-white"
+          data-aos="fade-up"
+          data-aos-duration="7000"
+        >
           <Image src={prod5} alt="" className="w-full" />
           <div className="  absolute text-center inset-0  font-[700]">
             <h2 className=" text-[28px]   mt-10">Eggs</h2>

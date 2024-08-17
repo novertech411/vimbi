@@ -28,7 +28,7 @@ export default function Home() {
     <main className="  ">
       <div className="  bg-cover  bg-mobilebg    md:h-[680px] md:bg-hero-section   h-[100vh] relative">
         <Container>
-          <div className="pt-[128px]   lavvic">
+          <div className="pt-[128px]   lavvic" data-aos="fade-right">
             <Image src={title} alt="" />
             <div className="  md:text-[65px]  text-[37px] text-secondary  lavvic font-[700] leading-tight">
               <h1>
@@ -43,7 +43,11 @@ export default function Home() {
             </p>
           </div>
 
-          <button className=" bg-secondary px-[30px] py-[15px]  rounded-xl mt-6">
+          <button
+            className=" bg-secondary px-[30px] py-[15px]  rounded-xl mt-6"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             {" "}
             Discover More
           </button>
@@ -61,10 +65,14 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="flex justify-center  lavvic gap-10   flex-col  md:flex-row">
-            <div className=" relative">
+          <div className="flex justify-center  lavvic gap-10   flex-col  md:flex-row ">
+            <div
+              className=" relative "
+              data-aos="fade-down-right"
+              data-aos-duration="3000"
+            >
               <Image src={farm} className=" " alt="farm  " />
-              <div className="absolute bg-[#6D8C54] h-[100px] rounded-xl  flex items-center gap-5 md:px-7  px-3   -bottom-[60px]  left-[17%] ">
+              <div className="absolute bg-[#6D8C54] h-[100px] rounded-xl  flex items-center gap-5 md:px-7     -bottom-[60px]  left-[17%] ">
                 <Image src={icon} alt=" icon" />{" "}
                 <div className=" text-white   lavvic border-l  border-[#ffffff20] pl-5">
                   <p className="font-[400] md:text-[40px]   text-[16px]">
@@ -77,7 +85,11 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:w-[50%]   w-[100%] text-white md:pt-5  pt-10  ">
+            <div
+              className="md:w-[50%]   text-white md:pt-5  pt-10  "
+              data-aos="fade-up-left"
+              data-aos-duration="3000"
+            >
               <div className="hidden  md:block">
                 <h4>OUR INTRODUCTION</h4>
 
@@ -138,11 +150,13 @@ export default function Home() {
 
       <Productsection />
 
-      <div className="mt-[80px]  ">
+      <div className="mt-[80px]  " data-aos="fade-up">
         <YoutubeVideo />
       </div>
 
-      <Selectproduct />
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <Selectproduct />
+      </div>
 
       <div className="   lavvic   text-center  md:pt-[100px]  pt-[30px] text-white ">
         <h2 className="font-[400] text-[20px]  ">Our Testimonials</h2>

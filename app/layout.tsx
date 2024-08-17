@@ -1,14 +1,15 @@
 "use client";
-import type { Metadata } from "next";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { Inter, Livvic } from "next/font/google";
-import localFont from "next/font/local";
+import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 import "./style.css";
 import Bot from "@/components/icon/Bot";
-import { motion } from "framer-motion";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -46,6 +47,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  useEffect(() => {
+    // here you can add your aos options
+    AOS.init();
+  }, []);
+
   return (
     <html lang="en">
       <head>
