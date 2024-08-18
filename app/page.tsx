@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <main className="  ">
-      <div className="  bg-cover  bg-mobilebg    md:h-[680px] md:bg-hero-section   h-[100vh] relative">
+      <div className="  bg-cover  bg-mobilebg    md:h-[680px] md:bg-hero-section   h-[150vh] relative">
         <Container>
           <div className="pt-[128px]   lavvic" data-aos="fade-right">
             <Image src={title} alt="" />
@@ -59,11 +59,11 @@ export default function Home() {
 
       <div className=" bg-hero-section1 bg-no-repeat  h-full  pt-[80px] ">
         <Container>
-          <div className=" block   md:hidden ">
+          {/* <div className=" block   md:hidden ">
             <h2 className=" text-white font-[700] text-[30px]   my-5">
               Here’s a Bit Of Who <br></br>We Are
             </h2>
-          </div>
+          </div> */}
 
           <div className="flex justify-center  lavvic gap-10   flex-col  md:flex-row ">
             <div
@@ -86,8 +86,8 @@ export default function Home() {
             </div>
 
             <div
-              className="md:w-[50%]   text-white md:pt-5  pt-10  "
-              data-aos="fade-up-left"
+              className="md:w-[50%]  w-auto text-white md:pt-5  "
+              data-aos="fade-up-right"
               data-aos-duration="3000"
             >
               <div className="hidden  md:block">

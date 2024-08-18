@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Container from "@/components/Container";
-import farm from "@/public/images/farm.png";
+import farm from "@/public/images/crock.png";
+import Cock from "@/public/images/cock.png";
+import white from "@/public/images/whitemeat.jpeg";
 import { FaCheckCircle } from "react-icons/fa";
 import icon from "@/public/images/icon.png";
 import video from "@/public/images/video.png";
@@ -14,20 +16,24 @@ import YoutubeVideo from "@/components/Youtub";
 import farmporge from "@/public/images/farmorage.png";
 import feed from "@/public/images/feedorgasnic.png";
 import meat from "@/public/images/meatorganic.png";
+import vim from "@/public/images/vimbai-01.jpg";
 
 function page() {
   return (
     <div>
       <div className=" text-center     md:bg-aboutbg md:h-[300px]  h-[250px] bg-no-repeat bg-white text-white flex items-center justify-center  bg-cover bg-aboutmob">
-        <h3 className=" inter md:text-[70px] font-[600] text-[40px]">
+        <h3
+          className=" inter md:text-[70px] font-[600] text-[40px]"
+          data-aos="zoom-in-down"
+        >
           {" "}
           <span className="text-secondary  md:text-white">About </span> us
         </h3>
       </div>
 
-      <div>
-        <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    px-6">
-          Vimbai&quot;s Organic Poultry and Crocodile Meat Supplies
+      <div data-aos="fade-right">
+        <h1 className="text-center text-secondary md:text-[50px] font-[700] my-[100px]    text-[30px]    md:px-6 px-2">
+          Vimbai&quot;s Crocodylidae Products, Tanning & Taxidermy
         </h1>
         <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
           Honoring Tradition, Cultivating Excellence: For{" "}
@@ -39,37 +45,32 @@ function page() {
       </div>
       <div className=" bg-hero-section1 bg-no-repeat  h-full  pt-[80px] ">
         <Container>
-          <div className=" block   md:hidden ">
-            <h2 className=" text-white font-[700] text-[30px]   my-5">
-              Here’s a Bit Of Who <br></br>We Are
-            </h2>
-          </div>
-
           <div className="flex justify-center  lavvic gap-10   flex-col  md:flex-row">
-            <div className=" relative">
-              <Image src={farm} className=" " alt="farm  " />
-              <div className="absolute bg-[#6D8C54] h-[100px] rounded-xl  flex items-center gap-5 md:px-7  px-3   -bottom-[60px]  left-[17%] ">
-                <Image src={icon} alt=" icon" />{" "}
-                <div className=" text-white   lavvic border-l  border-[#ffffff20] pl-5">
-                  <p className="font-[400] md:text-[40px]   text-[16px]">
-                    86,700
-                  </p>
-                  <p className="font-[500] md:text-[16px] text-[10px]">
-                    Successfully Project Completed
-                  </p>
-                </div>
-              </div>
+            <div className=" relative md:w-[40%]">
+              <Image
+                data-aos="fade-down-right"
+                src={farm}
+                className=" border-amber-200 border rounded-lg"
+                alt="farm  "
+              />
+              <Image
+                data-aos="fade-down-left"
+                src={Cock}
+                className=" absolute w-[200px] md:top-5 md:right-11  -top-[100px] -right-2"
+                alt="farm  "
+              />
+              <Image
+                data-aos="fade-right"
+                src={white}
+                className=" border-amber-200 border rounded-lg absolute  md:bottom-11  -bottom-[100px] left-7"
+                alt="farm  "
+              />
             </div>
 
-            <div className="md:w-[50%]   w-[100%] text-white md:pt-5  pt-10  ">
-              <div className="hidden  md:block">
-                <h4>OUR INTRODUCTION</h4>
-
-                <h2 className=" text-white font-[700] text-[50px]   my-5">
-                  Here&apos;s a Bit Of Who <br /> We Are
-                </h2>
-              </div>
-
+            <div
+              className="md:w-[50%]   w-[100%] text-white md:pt-5  pt-10  "
+              data-aos="flip-up"
+            >
               <h4 className=" text-secondary md:text-[30px]  my-9   text-[20px] font-[500] ">
                 We&apos;re a Leader in the Crocodile Market
               </h4>
@@ -95,7 +96,6 @@ function page() {
                   </p>
                 </div>
                 <div className="flex items-center gap-5 my-4 ">
-                  
                   <p>
                     We see ourselves becoming the most successful farm
                     organisation leading the supply chain of all our products
@@ -115,12 +115,18 @@ function page() {
           </div>
         </Container>
       </div>
-      <h1 className=" text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]  ">
+      <h1
+        className=" text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]  "
+        data-aos="fade-up"
+      >
         {" "}
         Our values
       </h1>
       <Container>
-        <p className=" max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px] ">
+        <p
+          className=" max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px] "
+          data-aos="zoom-in"
+        >
           {" "}
           Our <span className="text-secondary"> Values</span> Define Us:
           Integrity, Team work, and Quality are at the Core of Everything We Do.
@@ -130,31 +136,102 @@ function page() {
         <div className=" mt-11">
           <div className=""></div>
           <div className=" flex flex-wrap gap-10 justify-center">
-            <ValueCard
-              title="Integrity "
-              icon={<Inte />}
-              label="At Vimbai's Organic, integrity is our foundation, ensuring products you can trust."
-            />
-            <ValueCard
-              title="Team Work"
-              icon={<Team />}
-              label="Over here, teamwork fuels our success, fostering collaboration for exceptional results."
-            />
-            <ValueCard
-              title="Innovation"
-              icon={<Innova />}
-              label="Innovation drives us forward, pushing boundaries for better products and experiences"
-            />
-            <ValueCard
-              title="Commitment"
-              icon={<Commit />}
-              label="Commitment is our strength, driving us to deliver excellence in every product and service."
-            />
+            <div data-aos="fade-up">
+              {" "}
+              <ValueCard
+                title="Integrity "
+                icon={<Inte />}
+                label="At Vimbai's Organic, integrity is our foundation, ensuring products you can trust."
+              />
+            </div>
+
+            <div data-aos="fade-down">
+              {" "}
+              <ValueCard
+                title="Team Work"
+                icon={<Team />}
+                label="Over here, teamwork fuels our success, fostering collaboration for exceptional results."
+              />
+            </div>
+            <div data-aos="fade-up">
+              {" "}
+              <ValueCard
+                title="Innovation"
+                icon={<Innova />}
+                label="Innovation drives us forward, pushing boundaries for better products and experiences"
+              />
+            </div>
+            <div data-aos="fade-down">
+              {" "}
+              <ValueCard
+                title="Commitment"
+                icon={<Commit />}
+                label="Commitment is our strength, driving us to deliver excellence in every product and service."
+              />
+            </div>
           </div>
         </div>
       </Container>
 
-      <div className="mt-[80px]  ">
+      <Container>
+        <div className="flex gap-10 mt-[200px]  flex-wrap-reverse">
+          <div className="md:w-[50%] w-[100%]">
+            <p
+              data-aos="fade-left"
+              className="text-[40px] text-secondary font-[600] my-3 md:block hidden"
+            >
+              Founder
+            </p>
+            <p data-aos="flip-down" className="text-white ">
+              Vimbai Dzingirai is a 32 year old Entrepreneur, CEO and Executive
+              Director of Vimbai's Crocodylidae Products, Tanning & Taxidermy
+              and Vimbai's Organic Poultry & Crocodile Meat Supplies. She is
+              also a Director in 2 other companies which are different but all
+              fall under Agriculture.Apart from being a female crocodile farmer
+              herself in Zimbabwe, she also specializes in piggery, organic
+              Poultry and Cattle Ranching (Pen Fattening). Her Zeal is not only
+              affiliated to For Profit ventures as there are many other Social
+              initiatives she partakes in that cover Environmental Conflict and
+              Conservation issues, as well as Gender Equity. Her individual's
+              core areas of expertise are in Business Analysis, Marketing and
+              Brand Management, Public Relations and Community Engagement.
+              Qualifications are Certificates of Diplomas in Marketing
+              Management, International Marketing Management and Tourism and
+              Hospitality. She has however developed and extended her
+              professional skills over the course of her career. The specific
+              certifications, licences and training programs that have
+              contributed to her current expertise are a certificate from
+              Cultural Vistas- International Visitor Leadership Program -Social
+              Enterpreneursin the US; a Premier,Prestigious and Professional
+              Leadership Program of the US 🇺🇸 Department of State. Another
+              certificate from University of Georgia for her participation in
+              African Civic Engagement Academy.
+            </p>
+          </div>
+          <div className="px-3">
+            <p
+              data-aos="fade-left"
+              className="text-[40px] text-white font-[600] my-11 md:hidden block text-center"
+            >
+              Founder
+            </p>
+            <Image
+              data-aos="fade-down-left"
+              src={vim}
+              className="border-secondary border-2 rounded-lg"
+              alt=""
+            />
+            <p
+              data-aos="fade-down-right"
+              className=" font-johnstown   text-secondary text-[40px] md:my-6  mt-11"
+            >
+              Vimbai Dzingirai
+            </p>
+          </div>
+        </div>
+      </Container>
+
+      <div className="mt-[80px]  " data-aos="zoom-in-down">
         <YoutubeVideo />
       </div>
 

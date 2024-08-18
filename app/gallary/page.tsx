@@ -26,13 +26,17 @@ function page() {
         </div>
 
         <div className="relative md:h-[1000px]    h-[400px] flex justify-center z-0">
-          <div className=" -mt-[200px]   grid-center  justify-center absolute mx-full grid z-  md:grid-cols-4:gap-4    grid-cols-3  gap-2 max-w-[1024px] px-2  ">
+          <div className=" -mt-[200px]   grid-center  justify-center absolute mx-full  auto-cols-auto  columns-4    gap-y-4 gap-4 row-auto  max-w-[1024px] px-2  ">
             <Image src={gallary2} alt="crock" className=" rounded-lg" />
             <Image src={gallary3} alt="crock" className=" rounded-lg" />
             <Image src={gallary4} alt="crock" className=" rounded-lg" />
             <Image src={gallary5} alt="crock" className=" rounded-lg" />
-
             <Image src={gallary8} alt="crock" className=" rounded-lg" />
+            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
+            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
+            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
+            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
+            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
             <Image src={gallary9} alt="crock" className=" rounded-lg" />
           </div>
         </div>
