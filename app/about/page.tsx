@@ -184,28 +184,28 @@ function page() {
             </p>
             <p data-aos="flip-down" className="text-white ">
               Vimbai Dzingirai is a 32 year old Entrepreneur, CEO and Executive
-              Director of Vimbai's Crocodylidae Products, Tanning & Taxidermy
-              and Vimbai's Organic Poultry & Crocodile Meat Supplies. She is
-              also a Director in 2 other companies which are different but all
-              fall under Agriculture.Apart from being a female crocodile farmer
-              herself in Zimbabwe, she also specializes in piggery, organic
-              Poultry and Cattle Ranching (Pen Fattening). Her Zeal is not only
-              affiliated to For Profit ventures as there are many other Social
-              initiatives she partakes in that cover Environmental Conflict and
-              Conservation issues, as well as Gender Equity. Her individual's
-              core areas of expertise are in Business Analysis, Marketing and
-              Brand Management, Public Relations and Community Engagement.
-              Qualifications are Certificates of Diplomas in Marketing
-              Management, International Marketing Management and Tourism and
-              Hospitality. She has however developed and extended her
-              professional skills over the course of her career. The specific
-              certifications, licences and training programs that have
-              contributed to her current expertise are a certificate from
-              Cultural Vistas- International Visitor Leadership Program -Social
-              Enterpreneursin the US; a Premier,Prestigious and Professional
-              Leadership Program of the US 🇺🇸 Department of State. Another
-              certificate from University of Georgia for her participation in
-              African Civic Engagement Academy.
+              Director of Vimbai&lsquo;s Crocodylidae Products, Tanning &
+              Taxidermy and Vimbai&lsquo;s Organic Poultry & Crocodile Meat
+              Supplies. She is also a Director in 2 other companies which are
+              different but all fall under Agriculture.Apart from being a female
+              crocodile farmer herself in Zimbabwe, she also specializes in
+              piggery, organic Poultry and Cattle Ranching (Pen Fattening). Her
+              Zeal is not only affiliated to For Profit ventures as there are
+              many other Social initiatives she partakes in that cover
+              Environmental Conflict and Conservation issues, as well as Gender
+              Equity. Her individual&lsquo;s core areas of expertise are in
+              Business Analysis, Marketing and Brand Management, Public
+              Relations and Community Engagement. Qualifications are
+              Certificates of Diplomas in Marketing Management, International
+              Marketing Management and Tourism and Hospitality. She has however
+              developed and extended her professional skills over the course of
+              her career. The specific certifications, licences and training
+              programs that have contributed to her current expertise are a
+              certificate from Cultural Vistas- International Visitor Leadership
+              Program -Social Enterpreneursin the US; a Premier,Prestigious and
+              Professional Leadership Program of the US 🇺🇸 Department of State.
+              Another certificate from University of Georgia for her
+              participation in African Civic Engagement Academy.
             </p>
           </div>
           <div className="px-3">
