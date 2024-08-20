@@ -23,23 +23,30 @@ function page() {
   return (
     <div className=" ">
       <div className=" text-center     md:bg-productbg md:h-[300px]   h-[250px]  bg-no-repeat bg-white text-white flex items-center justify-center  md:bg-auto  bg-cover bg-productmob">
-        <h3 className="inter md:text-[70px] font-[600] text-[40px] leading-11">
+        <h3
+          className="inter md:text-[70px] font-[600] text-[40px] leading-11"
+          data-aos="zoom-in-down"
+        >
           {" "}
           <span className="text-secondary  md:text-white lea">Products </span> &
           Services{" "}
         </h3>
       </div>
-      <h1 className="md:text-center text-secondary md:text-[50px] font-[700] mt-[100px]  px-2   text-[40px]   text-center">
-        {" "}
-        Sustainable Harvest, Diverse{" "}
-        <span className="text-white"> Offerings</span>
-      </h1>
 
-      <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
-        Elevate Your Culinary Experience with Quality meats, elevate your
-        fashion with <span className="text-secondary"> quality crocodile</span>{" "}
-        skins.
-      </p>
+      <div data-aos="fade-right">
+        <h1 className="md:text-center text-secondary md:text-[50px] font-[700] mt-[100px]  px-2   text-[40px]   text-center">
+          {" "}
+          Sustainable Harvest, Diverse{" "}
+          <span className="text-white"> Offerings</span>
+        </h1>
+
+        <p className="max-w-[900px] mx-auto text-center text-white md:text-[20px]  px-8 my-16 text-[14px]">
+          Elevate Your Culinary Experience with Quality meats, elevate your
+          fashion with{" "}
+          <span className="text-secondary"> quality crocodile</span> skins.
+        </p>
+      </div>
+
       <Container>
         <div className="flex gap-4 flex-wrap justify-center mt-11 ">
           <Whatappcard

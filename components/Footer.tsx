@@ -22,25 +22,35 @@ function Footer() {
               We are a Leader in Agriculture Market
             </p>
 
-            <Button type="submit" label="DISCOVER MORE" classes="text-black" />
+            <Button
+              type="submit"
+              label="DISCOVER MORE"
+              classes="text-black"
+              data-aos="fade-right"
+            />
           </div>
         </Container>
       </div>
 
       <Container>
-        <Image src={logo} alt="logo" className=" mx-auto" />
+        <Image src={logo} alt="logo" className=" mx-auto" data-aos="zoom-in" />
         <div className="flex  justify-between  my-[80px]   text-[15px]  md:flex-row flex-col">
           <div className=" md:w-[30%]  w-full">
-            <p className=" max-w-[600px] w-full border-b border-[#ffffff2a] pb-11 ">
-              Lorem ipsum dolor sit amet, adipiscing elit. In hac habitasse
-              platea dictumst. Duis porta,quam ut finibus ultrices.
+            <p
+              className=" max-w-[600px] w-full border-b border-[#ffffff2a] pb-11 "
+              data-aos="flip-left"
+            >
+              We are operating as a farming business that is focused on
+              profitable, progressive and sustainable production of premium
+              quality identity-preserved crocodile meat, crocodile skin and
+              other vast farm products like chickens, ducks, eggs.
             </p>
 
             <div className="flex text-secondary gap-9 my-7  text-[30px]   md:justify-none    justify-center">
-              <FaFacebookF />
-              <FaTwitter />
-              <FaYoutube />
-              <FaInstagramSquare />
+              <FaFacebookF data-aos="fade-up" />
+              <FaTwitter data-aos="fade-down" />
+              <FaYoutube data-aos="fade-up" />
+              <FaInstagramSquare data-aos="fade-down" />
             </div>
           </div>
 
