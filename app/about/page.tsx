@@ -17,6 +17,8 @@ import farmporge from "@/public/images/farmorage.png";
 import feed from "@/public/images/feedorgasnic.png";
 import meat from "@/public/images/meatorganic.png";
 import vim from "@/public/images/vimbai-01.jpg";
+import consult1 from "@/public/images/consult2.jpg";
+import consult2 from "@/public/images/gallary5.jpeg";
 
 function page() {
   return (
@@ -115,6 +117,50 @@ function page() {
           </div>
         </Container>
       </div>
+
+      <div className=" bg-blogwave  bg-no-repeat  h-full  pt-[80px] ">
+        <Container>
+          <div className="flex  gap-9">
+            <div className=" justify-center  lavvic w-[50%]  text-white">
+              <h1 className="text-center text-secondary font-[700]   md:text-[30px]  my-9   text-[20px] ">
+                Crocodile Consultancy Service
+              </h1>
+
+              <p>
+                We are crocodile farming experts, we provide comprehensive
+                consultancy services to help clients establish and operate
+                successful commercial crocodile production facilities. With 7
+                years of hands-on experience, we guide clients through every
+                stage of the crocodile farming value chain.
+              </p>
+
+              <h2>Our Crocodile Farming Expertise</h2>
+              <p>
+                Site selection and farm design Hatchery management and
+                incubation Feeding and nutrition Health and disease management
+                Farming systems and husbandry Slaughtering and processing
+                Regulatory compliance
+              </p>
+            </div>
+            <div className=" relative  flex justify-center  w-[50%]  ">
+              <Image
+                src={consult1}
+                data-aos="fade-right"
+                alt=""
+                className=" border-amber-200 border rounded-lg w-[300px]"
+              />
+
+              <Image
+                src={consult2}
+                data-aos="fade-down-left"
+                className=" border-amber-200 border  w-[300px] rounded-lg absolute  md:-bottom-[200px]  -bottom-[10px] -right-[80px]"
+                alt="farm "
+              />
+            </div>
+          </div>
+        </Container>
+      </div>
+
       <h1
         className=" text-center text-white md:text-[50px] font-[700] mt-[200px]    text-[40px]  "
         data-aos="fade-up"
@@ -180,7 +226,7 @@ function page() {
               data-aos="fade-left"
               className="text-[40px] text-secondary font-[600] my-3 md:block hidden"
             >
-              Founder
+              Our Founder
             </p>
             <p data-aos="flip-down" className="text-white ">
               Vimbai Dzingirai is a 32 year old Entrepreneur, CEO and Executive
