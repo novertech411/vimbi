@@ -19,6 +19,8 @@ import meat from "@/public/images/meatorganic.png";
 import vim from "@/public/images/vimbai-01.jpg";
 import consult1 from "@/public/images/consult2.jpg";
 import consult2 from "@/public/images/gallary5.jpeg";
+import Tick from "@/components/icon/Tick";
+import Link from "next/link";
 
 function page() {
   return (
@@ -118,11 +120,11 @@ function page() {
         </Container>
       </div>
 
-      <div className=" bg-blogwave  bg-no-repeat  h-full  pt-[80px] ">
+      <div className=" bg-blogwave    h-full  pt-[80px] ">
         <Container>
-          <div className="flex  gap-9">
-            <div className=" justify-center  lavvic w-[50%]  text-white">
-              <h1 className="text-center text-secondary font-[700]   md:text-[30px]  my-9   text-[20px] ">
+          <div className="flex  md:flex-row flex-col-reverse  gap-9">
+            <div className=" justify-center  lavvic md:w-[50%]   w-[100%] text-white">
+              <h1 className="text-left text-secondary font-[700]   md:text-[30px]  my-9   text-[20px] ">
                 Crocodile Consultancy Service
               </h1>
 
@@ -134,26 +136,57 @@ function page() {
                 stage of the crocodile farming value chain.
               </p>
 
-              <h2>Our Crocodile Farming Expertise</h2>
-              <p>
-                Site selection and farm design Hatchery management and
-                incubation Feeding and nutrition Health and disease management
-                Farming systems and husbandry Slaughtering and processing
-                Regulatory compliance
-              </p>
+              <h2 className="text-left text-secondary font-[700]   md:text-[30px]  my-9   text-[20px]">
+                Our Crocodile Farming Expertise
+              </h2>
+              <div>
+                <div className="flex gap-3 items-center mt-2">
+                  <Tick /> <p>Site selection and farm design</p>
+                </div>
+
+                <div className="flex gap-3 items-center  mt-2">
+                  <Tick /> <p>Hatchery management and incubation</p>
+                </div>
+
+                <div className="flex gap-3 items-center  mt-2">
+                  <Tick /> <p>Feeding and nutrition</p>
+                </div>
+
+                <div className="flex gap-3 items-center  mt-2">
+                  <Tick /> <p>Health and disease management</p>
+                </div>
+
+                <div className="flex gap-3 items-center  mt-2">
+                  <Tick /> <p>Farming systems and husbandry</p>
+                </div>
+
+                <div className="flex gap-3 items-center  mt-2">
+                  <Tick /> <p>Slaughtering and processing</p>
+                </div>
+
+                <div className="flex gap-3 items-center  mt-2">
+                  <Tick /> <p>Regulatory compliance</p>
+                </div>
+                <Link href=" https://wa.me/263734199666">
+                  <button className=" bg-secondary px-[30px] py-[15px]  rounded-xl mt-6">
+                    {" "}
+                    Get a Qouter
+                  </button>
+                </Link>
+              </div>
             </div>
             <div className=" relative  flex justify-center  w-[50%]  ">
               <Image
                 src={consult1}
                 data-aos="fade-right"
                 alt=""
-                className=" border-amber-200 border rounded-lg w-[300px]"
+                className=" border-amber-200 border rounded-lg w-[300px] h-[500px]"
               />
 
               <Image
                 src={consult2}
                 data-aos="fade-down-left"
-                className=" border-amber-200 border  w-[300px] rounded-lg absolute  md:-bottom-[200px]  -bottom-[10px] -right-[80px]"
+                className=" border-amber-200 border  w-[300px] rounded-lg absolute  md:-bottom-[200px]  md:top-[400px] md:left-[80px] top-[100px]   left-[200px]"
                 alt="farm "
               />
             </div>
