@@ -170,7 +170,7 @@ function page() {
                 <Link href=" https://wa.me/263734199666">
                   <button className=" bg-secondary px-[30px] py-[15px]  rounded-xl mt-6">
                     {" "}
-                    Get a Qouter
+                    Get a Qoute
                   </button>
                 </Link>
               </div>

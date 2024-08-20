@@ -15,7 +15,10 @@ function Footer() {
       <div className=" bg-footerbg  bg-no-repeat  bg-center   bg-cover md:h-[300px] h-[400px] flex items-center w-full  mb-11">
         <Container>
           <div className="flex  justify-between md:pt-[80px] pt-0 items-center  md:flex-row flex-col">
-            <p className=" font-johnstown text-[50px]  text-[#344C31]">
+            <p
+              className=" font-johnstown text-[50px]  text-[#344C31]"
+              data-aos="zoom-out-up"
+            >
               We are a Leader in Agriculture Market
             </p>
 
