@@ -9,6 +9,11 @@ import gallary6 from "@/public/images/gallary6.jpeg";
 import gallary7 from "@/public/images/gallary7.jpeg";
 import gallary8 from "@/public/images/gallary8.jpeg";
 import gallary9 from "@/public/images/gallary9.jpeg";
+import gallary10 from "@/public/images/gallary10.jpeg";
+import gallary11 from "@/public/images/gallary11.jpeg";
+import gallary12 from "@/public/images/gallary12.jpeg";
+import gallary13 from "@/public/images/download (8).jpeg";
+import gallary14 from "@/public/images/image 9.png";
 
 function page() {
   return (
@@ -25,19 +30,87 @@ function page() {
           </h1>
         </div>
 
-        <div className="relative md:h-[1000px]    h-[400px] flex justify-center z-0">
-          <div className=" -mt-[200px]   grid-center  justify-center absolute mx-full  auto-cols-auto  columns-3    gap-y-4 gap-4 row-auto  max-w-[1024px] px-2  ">
-            <Image src={gallary2} alt="crock" className=" rounded-lg" />
-            <Image src={gallary3} alt="crock" className=" rounded-lg" />
-            <Image src={gallary4} alt="crock" className=" rounded-lg" />
-            <Image src={gallary5} alt="crock" className=" rounded-lg" />
-            <Image src={gallary8} alt="crock" className=" rounded-lg" />
-            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
-            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
-            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
-            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
-            <Image src={gallary9} alt="crock" className=" rounded-lg" />{" "}
-            <Image src={gallary9} alt="crock" className=" rounded-lg" />
+        <div className="relative md:h-[1100px]    h-[750vh] flex justify-center z-0">
+          <div className=" -mt-[200px]   grid-center  justify-center absolute mx-full  auto-cols-auto  columns-3xs    gap-y-4 gap-4 row-auto  px-2  ">
+            <Image
+              src={gallary2}
+              alt="crock"
+              className=" rounded-lg mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary14}
+              alt="crock"
+              className=" rounded-lg   mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary3}
+              alt="crock"
+              className=" rounded-lg   mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary4}
+              alt="crock"
+              className=" rounded-lg  mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary13}
+              alt="crock"
+              className=" rounded-lg  mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary10}
+              alt="crock"
+              className=" rounded-lg   mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary5}
+              alt="crock"
+              className=" rounded-lg  mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary6}
+              alt="crock"
+              className=" rounded-lg  mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary7}
+              alt="crock"
+              className=" rounded-lg  mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary8}
+              alt="crock"
+              className=" rounded-lg   mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary9}
+              alt="crock"
+              className=" rounded-lg   mt-4"
+              data-aos="fade-up"
+            />
+
+            <Image
+              src={gallary11}
+              alt="crock"
+              className=" rounded-lg   mt-4"
+              data-aos="fade-up"
+            />
+            <Image
+              src={gallary12}
+              alt="crock"
+              className=" rounded-lg   mt-4"
+              data-aos="fade-up"
+            />
           </div>
         </div>
       </div>
